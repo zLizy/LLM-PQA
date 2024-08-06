@@ -1,0 +1,15 @@
+### Dataset Name
+Google Play Store Apps
+
+### Overview
+This dataset contains details of over 10,000 apps from the Google Play Store. The data includes information on app names, categories, ratings, reviews, sizes, installs, types, prices, content ratings, and genres. This information can be used to analyze trends in the Android app market and gain insights for developers and businesses.
+
+### Sample Data
+
+| App                                         | Category      | Rating | Reviews | Size  | Installs  | Type | Price | Content Rating | Genres              |
+|---------------------------------------------|---------------|--------|---------|-------|-----------|------|-------|----------------|---------------------|
+| Photo Editor & Candy Camera & Grid & ScrapBook | ART_AND_DESIGN | 4.1    | 159     | 19M   | 10,000+   | Free | 0     | Everyone       | Art & Design        |
+| Coloring book moana                         | ART_AND_DESIGN | 3.9    | 967     | 14M   | 500,000+  | Free | 0     | Everyone       | Art & Design;Pretend Play |
+| U Launcher Lite – FREE Live Cool Themes     | ART_AND_DESIGN | 4.7    | 87510   | 8.7M  | 5,000,000+| Free | 0     | Everyone       | Art & Design        |
+| Sketch - Draw & Paint                       | ART_AND_DESIGN | 4.5    | 215644  | 25M   | 50,000,000+| Free | 0     | Teen           | Art & Design        |
+| Pixel Draw - Number Art Coloring Book       | ART_AND_DESIGN | 4.3    | 967     | 2.8M  | 100,000+  | Free | 0     | Everyone       | Art & Design        |

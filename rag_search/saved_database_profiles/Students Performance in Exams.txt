@@ -1,0 +1,16 @@
+### Dataset Name
+Students Performance in Exams
+
+### Overview
+This dataset includes the marks secured by students in various subjects. It aims to explore the influence of factors like parental education, lunch type, and test preparation on student performance.
+
+### Sample Data
+
+#### Student Performance
+| Gender | Race/Ethnicity | Parental Level of Education | Lunch        | Test Preparation Course | Math Score | Reading Score | Writing Score |
+|--------|----------------|----------------------------|--------------|------------------------|------------|---------------|---------------|
+| Female | Group B        | Bachelor's degree          | Standard     | None                   | 72         | 72            | 74            |
+| Female | Group C        | Some college               | Standard     | Completed              | 69         | 90            | 88            |
+| Female | Group B        | Master's degree            | Standard     | None                   | 90         | 95            | 93            |
+| Male   | Group A        | Associate's degree         | Free/Reduced | None                   | 47         | 57            | 44            |
+| Male   | Group C        | Some college               | Standard     | None                   | 76         | 78            | 75            |

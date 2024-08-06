@@ -1,0 +1,49 @@
+**Dataset Name**: Top Spotify Tracks of 2017
+
+**Overview**: This dataset includes the audio features of the top Spotify songs of 2017. It provides detailed information about each track, such as danceability, energy, key, loudness, and more. The data is useful for analyzing the characteristics that make these songs popular and understanding the common features among them.
+
+**Sample Data**:
+Below is a sample of the data to give an idea of the structure and content of the dataset:
+
+| id                       | name                             | artists          | danceability | energy | key | loudness | mode | speechiness | acousticness | instrumentalness | liveness | valence | tempo | duration_ms |
+|--------------------------|----------------------------------|------------------|--------------|--------|-----|----------|------|-------------|--------------|------------------|----------|---------|-------|-------------|
+| 7qiZfU4dY1lWllzX7mPBI   | Shape of You                     | Ed Sheeran       | 0.825        | 0.652  | 1   | -3.183   | 1    | 0.0802      | 0.581        | 0.00000          | 0.0802   | 0.843   | 96.0  | 233713      |
+| 5CtI0qwDJkDQGwXD1H1cL   | Despacito - Remix                | Luis Fonsi       | 0.694        | 0.815  | 2   | -4.328   | 1    | 0.12        | 0.229        | 0.00000          | 0.121    | 0.802   | 177.0 | 228760      |
+| 4aWmUDTfIPGksMNLV2rQP   | Despacito (Featuring Daddy Yankee)| Luis Fonsi       | 0.66         | 0.786  | 2   | -4.757   | 1    | 0.17        | 0.209        | 0.00000          | 0.152    | 0.791   | 177.0 | 228027      |
+| 6RUKPb4LETWmmr3iAEQkt   | Something Just Like This          | The Chainsmokers | 0.617        | 0.635  | 11  | -6.769   | 0    | 0.0317      | 0.0498       | 0.00000          | 0.108    | 0.616   | 103.0 | 247093      |
+| 3DXncPQOG4VBw3QHh3S81   | I'm the One                       | DJ Khaled        | 0.609        | 0.668  | 7   | -4.284   | 1    | 0.0367      | 0.0552       | 0.00000          | 0.143    | 0.529   | 80.0  | 286933      |
+
+**Key Columns**:
+- **id**: Spotify URI for the song.
+- **name**: Name of the song.
+- **artists**: Artist(s) of the song.
+- **danceability**: Danceability score (0.0 to 1.0).
+- **energy**: Energy score (0.0 to 1.0).
+- **key**: The key the track is in (integers map to pitches).
+- **loudness**: Loudness of the track in decibels (dB).
+- **mode**: Modality of the track (1 for major, 0 for minor).
+- **speechiness**: Speechiness score (0.0 to 1.0).
+- **acousticness**: Acousticness score (0.0 to 1.0).
+- **instrumentalness**: Instrumentalness score (0.0 to 1.0).
+- **liveness**: Liveness score (0.0 to 1.0).
+- **valence**: Valence score (0.0 to 1.0).
+- **tempo**: Tempo of the track in beats per minute (BPM).
+- **duration_ms**: Duration of the song in milliseconds.
+
+**Usage**: This dataset can be used for various purposes, including:
+- Analyzing the audio features of popular songs to understand what makes them appealing.
+- Building machine learning models to predict song popularity based on audio features.
+- Visualizing patterns in the musical attributes of top tracks.
+
+**License**: Data files © Original Authors
+
+**Expected update frequency**: Not specified
+
+**Tags**:
+- Music
+- Popular Culture
+- Spotify
+- Audio Analysis
+- Data Visualization
+
+This dataset is ideal for music enthusiasts, data scientists, and researchers interested in exploring the audio features of popular songs and understanding what makes them hits.

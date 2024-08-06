@@ -1,0 +1,49 @@
+**Dataset Name**: Top Spotify Tracks of 2018
+
+**Overview**: This dataset includes the audio features of the top Spotify songs of 2018. It provides detailed information about each track, such as danceability, energy, key, loudness, and more. The data is useful for analyzing the characteristics that make these songs popular and understanding the common features among them.
+
+**Sample Data**:
+Below is a sample of the data to give an idea of the structure and content of the dataset:
+
+| id                        | name              | artists         | danceability | energy | key | loudness | mode | speechiness | acousticness | instrumentalness | liveness | valence | tempo | duration_ms |
+|---------------------------|-------------------|-----------------|--------------|--------|-----|----------|------|-------------|--------------|------------------|----------|---------|-------|-------------|
+| 6DCZcSspjsKoFjzjrWoCd     | God's Plan        | Drake           | 0.754        | 0.449  | 7   | -9.211   | 1    | 0.109       | 0.0332       | 0.00000          | 0.109    | 0.531   | 77.0  | 198973      |
+| 3ee8Jmje8o58CHK66QrVC     | SAD!              | XXXTENTACION    | 0.74         | 0.613  | 8   | -4.88    | 1    | 0.145       | 0.258        | 0.00000          | 0.149    | 0.274   | 75.0  | 166000      |
+| 0e7ipj03S05BNilyu5bRz     | rockstar          | Post Malone     | 0.587        | 0.535  | 5   | -6.09    | 0    | 0.0898      | 0.117        | 0.00000          | 0.0956   | 0.141   | 80.0  | 218160      |
+| 3swc6WTsr7rl9DqQKQA55     | Psycho            | Post Malone     | 0.739        | 0.559  | 8   | -8.011   | 1    | 0.117       | 0.58         | 0.00000          | 0.0793   | 0.516   | 160.0 | 220160      |
+| 2G7V7zsVDxg1yRsu7Ew9R     | In My Feelings    | Drake           | 0.835        | 0.626  | 1   | -5.833   | 1    | 0.125       | 0.0589       | 0.00000          | 0.158    | 0.528   | 91.0  | 217933      |
+
+**Key Columns**:
+- **id**: Spotify URI for the song.
+- **name**: Name of the song.
+- **artists**: Artist(s) of the song.
+- **danceability**: Danceability score (0.0 to 1.0).
+- **energy**: Energy score (0.0 to 1.0).
+- **key**: The key the track is in (integers map to pitches).
+- **loudness**: Loudness of the track in decibels (dB).
+- **mode**: Modality of the track (1 for major, 0 for minor).
+- **speechiness**: Speechiness score (0.0 to 1.0).
+- **acousticness**: Acousticness score (0.0 to 1.0).
+- **instrumentalness**: Instrumentalness score (0.0 to 1.0).
+- **liveness**: Liveness score (0.0 to 1.0).
+- **valence**: Valence score (0.0 to 1.0).
+- **tempo**: Tempo of the track in beats per minute (BPM).
+- **duration_ms**: Duration of the song in milliseconds.
+
+**Usage**: This dataset can be used for various purposes, including:
+- Analyzing the audio features of popular songs to understand what makes them appealing.
+- Building machine learning models to predict song popularity based on audio features.
+- Visualizing patterns in the musical attributes of top tracks.
+
+**License**: Data files © Original Authors
+
+**Expected update frequency**: Never
+
+**Tags**:
+- Music
+- Popular Culture
+- Spotify
+- Audio Analysis
+- Data Visualization
+
+This dataset is ideal for music enthusiasts, data scientists, and researchers interested in exploring the audio features of popular songs and understanding what makes them hits.

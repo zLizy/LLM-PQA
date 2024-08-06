@@ -1,0 +1,22 @@
+### Model Name: Titanic Survival Predictions
+
+### Dataset Name: abdessamadtouzani/titanic-suvival-predictions
+
+### Model Overview:
+The Titanic Survival Predictions model is a logistic regression model designed to predict the likelihood of passengers surviving the Titanic disaster. It uses features such as passenger class, sex, age, number of siblings/spouses aboard, number of parents/children aboard, fare, and embarked port to make predictions.
+
+### Intended Use:
+This model is intended to be used for educational purposes and historical analysis. It provides insights into the factors that influenced survival rates during the Titanic disaster and can be used to teach concepts of logistic regression and binary classification.
+
+### Technical Details:
+- Algorithm Type: Logistic Regression
+- Input Features: ['Pclass', 'Sex', 'Age', 'SibSp', 'Parch', 'Fare', 'Embarked']
+- Output: Predicted survival (0 = did not survive, 1 = survived)
+
+### Model Performance:
+- The performance metrics for this logistic regression model include accuracy, precision, recall, and F1-score. Specific values are not provided here but should be evaluated using a validation set to understand the model's effectiveness.
+
+### Limitations:
+- The model assumes a linear relationship between the log-odds of survival and the input features. This assumption might not capture complex interactions between features.
+- The data used for training may contain biases, such as socio-economic factors prevalent during the early 20th century, which may not generalize well to other contexts or datasets.
+- Missing values and the imputation method used can affect the model's accuracy and generalizability.

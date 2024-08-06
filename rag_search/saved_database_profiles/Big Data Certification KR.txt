@@ -1,0 +1,19 @@
+**Dataset Name**: Big Data Certification KR
+
+**Overview**: This dataset is designed to help prepare for the Big Data Analytics Certification exam in South Korea. It includes various tutorials and practice problems in both Python and R. The dataset covers a range of statistical and machine learning techniques applied to big data, including logistic regression, t-tests, chi-square tests, and more. Below is a sample of the data to provide insight into the typical content and structure of the dataset:
+
+| PassengerId | Survived | Pclass | Name                    | Gender | Age | SibSp | Parch | Ticket     | Fare   |
+|-------------|----------|--------|-------------------------|--------|-----|-------|-------|------------|--------|
+| 1           | 0        | 3      | Braund, Mr. Owen Harris | male   | 22  | 1     | 0     | A/5 21171  | 7.25   |
+| 2           | 1        | 1      | Cumings, Mrs. John      | female | 38  | 1     | 0     | PC 17599   | 71.2833|
+| 3           | 1        | 3      | Heikkinen, Miss. Laina  | female | 26  | 0     | 0     | STON/O2. 3 | 7.925  |
+| 4           | 1        | 1      | Futrelle, Mrs. Jacques  | female | 35  | 1     | 0     | 113803     | 53.1   |
+| 5           | 0        | 3      | Allen, Mr. William Henry| male   | 35  | 0     | 0     | 373450     | 8.05   |
+
+**Usage**: This dataset is used for preparing and practicing for the Big Data Analytics Certification exam. It includes exercises and examples that cover various statistical and data analysis techniques, making it a valuable resource for students and professionals aiming to enhance their data analytics skills. The dataset supports learning and application of Python and R for big data analytics, providing a comprehensive learning experience.
+
+This dataset not only aids in exam preparation but also supports broader learning and practice in data science, machine learning, and statistical analysis. It is suitable for both beginners and advanced users looking to refine their skills in data manipulation, visualization, and modeling.
+
+**License**: Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)
+
+**Expected update frequency**: Not specified

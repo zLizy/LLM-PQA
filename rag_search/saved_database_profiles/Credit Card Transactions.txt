@@ -1,0 +1,16 @@
+### Dataset Name
+Credit Card Transactions
+
+### Overview
+This dataset contains over 20 million credit card transactions, including both legitimate and fraudulent transactions. The data was generated from a multi-agent virtual world simulation performed by IBM. It includes various features such as transaction amount, merchant category codes (MCCs), and timestamps.
+
+### Sample Data
+| Transaction ID | Cardholder ID | Transaction Amount | Merchant Category | Fraudulent |
+|----------------|---------------|--------------------|-------------------|------------|
+| 123456         | 78901         | 102.5              | Electronics       | No         |
+| 123457         | 78902         | 75.0               | Grocery           | Yes        |
+
+### Usage
+- **Fraud Detection Models**: Train and evaluate fraud detection algorithms.
+- **Purchase Pattern Analysis**: Identify common spending patterns and behaviors.
+- **Feature Engineering**: Use natural values for feature creation and model improvement.

@@ -1,0 +1,17 @@
+Model Overview
+The Artist Recommendation Model uses a collaborative filtering approach with neural network techniques to recommend artists based on user preferences, utilizing TensorFlow for the neural network architecture.
+
+Intended Use
+Aimed at music streaming services, this model enhances user experience by providing personalized artist recommendations, promoting music discovery that aligns with individual tastes.
+
+Technical Details
+Algorithm Type: Collaborative Filtering with Neural Networks
+Input Features: User and artist identifiers
+Output: Probability score of user preference
+Architecture: Embedding layers for users and artists, dot product layer for interaction modeling, and a sigmoid output layer.
+Training: Optimized using binary cross-entropy loss, with early stopping based on validation loss.
+Model Performance
+Efficient training on a sampled subset of the Spotify playlists dataset, ensuring broad user-artist interaction coverage.
+
+Limitations
+May vary in effectiveness with the diversity of user-artist interactions in training data.

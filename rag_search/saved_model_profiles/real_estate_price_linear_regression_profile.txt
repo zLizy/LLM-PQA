@@ -1,0 +1,23 @@
+Model Name: real_estate_price_linear_regression
+
+Dataset Name: Real_estate
+
+Model Overview:
+The real_estate_price_linear_regression model is a linear regression model specifically designed to predict the house price of unit area based on several input features. These features include 'house age', 'distance to the nearest MRT station', 'number of convenience stores', 'latitude', and 'longitude'. By inputting these factors, the model can estimate the price of real estate based on historical data.
+
+Intended Use:
+This model is ideal for individuals or organizations in the real estate industry looking to predict house prices based on different parameters. It can assist in making informed decisions regarding property valuation, investment strategies, and market trends.
+
+Technical Details:
+- Algorithm Type: Linear Regression
+- Input Features: ['X2 house age', 'X3 distance to the nearest MRT station', 'X4 number of convenience stores', 'X5 latitude', 'X6 longitude']
+- Output: Predicted value of Y house price of unit area
+
+Model Performance:
+ - Mean Squared Error (MSE): 46.21179783493614
+ - R² Score: 0.6509058479986625
+
+Limitations:
+Linear regression models have limitations when assumptions such as linearity, independence of errors, homoscedasticity, and normality of residuals are violated. It may not perform well with non-linear relationships or in the presence of outliers and multicollinearity in the data.
+
+This real_estate_regression model aims to provide a reliable estimate of real estate prices based on the specified input parameters, offering valuable insights for individuals and businesses in the real estate sector.

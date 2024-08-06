@@ -1,0 +1,36 @@
+### Dataset Name
+Animal Crossing New Horizons Catalog
+
+### Overview
+This dataset provides a comprehensive inventory of items, villagers, clothing, fish, bugs, and other collectibles from the popular Nintendo Switch game, Animal Crossing: New Horizons. The data includes various attributes for each item, allowing for detailed analysis and exploration of the game's vast content.
+
+### Sample Data
+| Name            | Variation  | DIY  | Buy | Sell | Color 1 | Color 2  | Size | Miles Price | Source        |
+|-----------------|------------|------|-----|------|---------|----------|------|-------------|---------------|
+| 3D glasses      | White      | No   | 490 | 122  | White   | Colorful | 1x1  | NA          | Able Sisters  |
+| 3D glasses      | Black      | No   | 490 | 122  | Black   | Colorful | 1x1  | NA          | Able Sisters  |
+| bandage         | Beige      | No   | 140 | 35   | Beige   | White    | 1x1  | NA          | Able Sisters  |
+| beak            | Yellow     | No   | 490 | 122  | Yellow  | Yellow   | 1x1  | NA          | Able Sisters  |
+| birthday shades | Yellow     | No   | NFS | 620  | Yellow  | Red      | 1x1  | NA          | Birthday      |
+| birthday shades | Pink       | No   | NFS | 620  | Pink    | Pink     | 1x1  | NA          | Birthday      |
+| birthday shades | Red        | No   | NFS | 620  | Red     | Red      | 1x1  | NA          | Birthday      |
+
+### Usage
+- **Game Data Analysis**: Explore the diversity of items and characters in Animal Crossing: New Horizons.
+- **Item Recommendation**: Develop recommendation systems for players based on item attributes and popularity.
+- **Market Analysis**: Analyze buying and selling prices to strategize in-game economic decisions.
+- **Customization Trends**: Study trends in item variations and colors to understand player preferences.
+
+### Features
+- `Name`: Name of the item.
+- `Variation`: Variation of the item (e.g., color, pattern).
+- `DIY`: Indicates if the item can be crafted by the player.
+- `Buy`: Purchase price of the item.
+- `Sell`: Sell price of the item.
+- `Color 1`: Primary color of the item.
+- `Color 2`: Secondary color of the item.
+- `Size`: Size of the item in the game world.
+- `Miles Price`: Price in Nook Miles, if applicable.
+- `Source`: How the item can be obtained in the game (e.g., store, event).
+
+This dataset provides a rich source of information for fans and researchers interested in the detailed aspects of Animal Crossing: New Horizons. Whether you're looking to optimize your in-game strategy, analyze player behavior, or simply explore the game's extensive catalog, this dataset offers valuable insights.

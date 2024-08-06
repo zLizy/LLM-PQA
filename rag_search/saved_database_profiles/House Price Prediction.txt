@@ -1,0 +1,51 @@
+**Dataset Name**: House Price Prediction
+
+**Overview**: This dataset provides information on house sales in various regions, such as Sydney and Melbourne. The data includes numerous attributes related to each property, such as the number of bedrooms and bathrooms, living area size, lot size, and more. This dataset can be used for predictive modeling to forecast property prices, which is essential for both buyers and sellers in the real estate market. 
+
+**Sample Data**:
+Below is a sample of the data to give an idea of the structure and content:
+
+| date       | price     | bedrooms | bathrooms | sqft_living | sqft_lot | floors | waterfront | view | condition |
+|------------|-----------|----------|-----------|-------------|----------|--------|------------|------|-----------|
+| 2014-05-02 | 313000.00 | 3        | 1.5       | 1340        | 7912     | 1.5    | 0          | 0    | 3         |
+| 2014-05-02 | 2384000.00| 5        | 2.5       | 3650        | 9050     | 2.0    | 0          | 4    | 5         |
+| 2014-05-02 | 342000.00 | 3        | 2.0       | 1930        | 11947    | 1.0    | 0          | 0    | 4         |
+| 2014-05-02 | 420000.00 | 3        | 2.25      | 2000        | 8030     | 1.0    | 0          | 0    | 4         |
+| 2014-05-02 | 550000.00 | 4        | 2.5       | 1940        | 10500    | 1.0    | 0          | 0    | 4         |
+| 2014-05-02 | 490000.00 | 2        | 1.0       | 880         | 6380     | 1.0    | 0          | 0    | 3         |
+| 2014-05-02 | 335000.00 | 2        | 2.0       | 1350        | 2560     | 1.0    | 0          | 0    | 3         |
+| 2014-05-02 | 482000.00 | 4        | 2.5       | 2710        | 35868    | 2.0    | 0          | 0    | 3         |
+| 2014-05-02 | 452500.00 | 3        | 2.5       | 2430        | 88426    | 1.0    | 0          | 0    | 4         |
+| 2014-05-02 | 640000.00 | 4        | 2.0       | 1520        | 6200     | 1.5    | 0          | 0    | 3         |
+| 2014-05-02 | 463000.00 | 3        | 1.75      | 1710        | 7320     | 1.0    | 0          | 0    | 3         |
+| 2014-05-02 | 1400000.00| 4        | 2.5       | 2920        | 4000     | 2.0    | 0          | 3    | 4         |
+
+**Key Columns**:
+- **date**: The date when the property was sold.
+- **price**: The selling price of the property.
+- **bedrooms**: The number of bedrooms in the property.
+- **bathrooms**: The number of bathrooms in the property.
+- **sqft_living**: The living area size in square feet.
+- **sqft_lot**: The lot size in square feet.
+- **floors**: The number of floors in the property.
+- **waterfront**: Whether the property is a waterfront property (1) or not (0).
+- **view**: The quality of the view from the property.
+- **condition**: The overall condition of the property.
+
+**Usage**: This dataset can be used for:
+- Predictive modeling to forecast house prices based on various features.
+- Analyzing the impact of different attributes (e.g., number of bedrooms, lot size) on the property price.
+- Understanding trends and patterns in the housing market.
+- Evaluating the real estate market conditions over time.
+
+**License**: Unknown
+
+**Expected update frequency**: Not specified
+
+**Tags**:
+- Housing
+- Real Estate
+- Predictive Modeling
+- Market Analysis
+
+This dataset is ideal for anyone looking to delve into the real estate market analytics, providing a robust foundation for price prediction models and market trend analysis.

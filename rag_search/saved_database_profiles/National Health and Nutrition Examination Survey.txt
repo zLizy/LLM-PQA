@@ -1,0 +1,14 @@
+**Dataset Name**: National Health and Nutrition Examination Survey (NHANES) 2013-2014
+
+**Overview**: This dataset contains comprehensive data from the NHANES 2013-2014 survey, designed to assess the health and nutritional status of adults and children in the United States. The survey combines interviews and physical examinations, collecting data on demographics, socioeconomic status, dietary habits, and health-related questions. The examination component includes medical, dental, and physiological measurements, as well as laboratory tests. The dataset includes the following columns: ['SEQN', 'SDDSRVYR', 'RIDSTATR', 'RIAGENDR', 'RIDAGEYR', 'RIDAGEMN', 'RIDRETH1', 'RIDRETH3', 'RIDEXMON', 'RIDEXAGM']. Below is a sample of the data to provide insight into the typical content and structure of the dataset:
+
+SEQN, SDDSRVYR, RIDSTATR, RIAGENDR, RIDAGEYR, RIDAGEMN, RIDRETH1, RIDRETH3, RIDEXMON, RIDEXAGM
+73557, 8, 2, 1, 69, 4, 4, 1, 2, 3
+73558, 8, 2, 1, 54, 3, 3, 1, 2, 3
+73559, 8, 2, 1, 72, 3, 3, 2, 2, 3
+73560, 8, 2, 1, 9, 3, 3, 1, 2, 3
+73561, 8, 2, 2, 73, 3, 3, 1, 2, 1
+
+**Usage**: The NHANES 2013-2014 dataset is extensively used in public health research and policy-making. It is particularly useful for developing epidemiological studies, health assessments, and nutrition-related research. This dataset supports a wide range of analyses, from understanding the prevalence of health conditions to evaluating the effectiveness of health interventions and policies.
+
+The NHANES dataset is essential for both academic research and practical applications in healthcare. It aids researchers and policymakers in identifying public health trends, developing targeted health programs, and improving overall health outcomes for the population.

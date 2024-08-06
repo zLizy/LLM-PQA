@@ -1,0 +1,16 @@
+Model Overview
+DPT-Hybrid is a Dense Prediction Transformer model trained for monocular depth estimation, utilizing a Vision Transformer (ViT) as its backbone.
+
+Intended Use
+Suited for applications requiring zero-shot monocular depth estimation. Applicable to various tasks, available for further fine-tuning.
+
+Technical Details
+Algorithm Type: Transformer-Based Depth Estimation
+Input Features: Images
+Output: Depth Maps
+Architecture: ViT-hybrid backbone, with additional layers for depth estimation.
+Model Performance
+Trained on 1.4 million images, showcasing versatility in depth estimation across diverse scenarios.
+
+Limitations
+May require fine-tuning for specific tasks. Not intended for creating hostile environments.

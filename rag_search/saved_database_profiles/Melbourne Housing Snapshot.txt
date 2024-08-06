@@ -1,0 +1,40 @@
+Dataset Name: Melbourne Housing Snapshot
+
+Overview: This dataset contains detailed information about real estate properties in Melbourne, Australia, including attributes such as address, type of property, suburb, method of selling, number of rooms, price, real estate agent, date of sale, and distance from the Central Business District (CBD). The data was scraped from publicly available results posted every week on Domain.com.au and cleaned by Tony Pino.
+
+Columns and Descriptions:
+- Suburb: The suburb where the property is located.
+- Address: The street address of the property.
+- Rooms: The number of rooms in the property.
+- Type: The type of property (e.g., house, unit, townhouse).
+- Price: The selling price of the property in dollars.
+- Method: The method of selling (e.g., S - sold, SP - sold prior, PI - passed in).
+- SellerG: The real estate agent who sold the property.
+- Date: The date the property was sold.
+- Distance: The distance of the property from the CBD in kilometers.
+- Postcode: The postal code of the property's location.
+- Bedroom2: The number of bedrooms (scraped from a different source).
+- Bathroom: The number of bathrooms.
+- Car: The number of car spaces.
+- Landsize: The land size of the property in square meters.
+- BuildingArea: The building area of the property in square meters.
+- CouncilArea: The governing council area for the property.
+
+Sample Data:
+| Suburb   | Address         | Rooms | Type | Price    | Method | SellerG | Date       | Distance | Postcode | Bedroom2 | Bathroom | Car | Landsize | BuildingArea | CouncilArea |
+|----------|-----------------|-------|------|----------|--------|---------|------------|----------|----------|----------|----------|-----|----------|--------------|-------------|
+| Abbotsford | 85 Turner St   | 2     | h    | 1480000  | S      | Biggin  | 3/12/2016  | 2.5      | 3067     | 2        | 1        | 1   | 202      | 150          | Yarra       |
+| Abbotsford | 25 Bloomburg St| 2     | h    | 1035000  | S      | Biggin  | 4/02/2016  | 2.5      | 3067     | 2        | 1        | 0   | 156      | 79           | Yarra       |
+| Abbotsford | 5 Charles St   | 3     | h    | 1465000  | SP     | Biggin  | 4/03/2017  | 2.5      | 3067     | 3        | 2        | 0   | 134      | 150          | Yarra       |
+| Abbotsford | 40 Federation La | 3   | h    | 850000   | PI     | Biggin  | 4/03/2017  | 2.5      | 3067     | 3        | 1        | 1   | 94       | 150          | Yarra       |
+| Abbotsford | 55a Park St    | 4     | h    | 1600000  | VB     | Nelson  | 4/06/2016  | 2.5      | 3067     | 4        | 2        | 1   | 202      | 150          | Yarra       |
+| Abbotsford | 129 Charles St | 2     | h    | 941000   | S      | Jellis  | 7/05/2016  | 2.5      | 3067     | 2        | 1        | 1   | 220      | 156          | Yarra       |
+| Abbotsford | 124 Yarra St   | 3     | h    | 1876000  | S      | Biggin  | 3/12/2016  | 2.5      | 3067     | 3        | 2        | 1   | 156      | 79           | Yarra       |
+
+Usage: This dataset is ideal for data analysis and machine learning projects focused on real estate trends, property valuation, and market prediction. Researchers, data scientists, and real estate professionals can leverage this data to gain insights into the Melbourne housing market, identify trends, and predict future property values.
+
+Acknowledgements: This snapshot was created in September 2017, and homes with no price information have been removed. The original dataset is available at https://www.kaggle.com/anthonypino/melbourne-housing-market.
+
+License: CC BY-NC-SA 4.0
+
+The Melbourne Housing Snapshot dataset provides a comprehensive view of the housing market, supporting a wide range of analyses from demographic studies to economic modeling, making it a valuable resource for understanding real estate dynamics in Melbourne.

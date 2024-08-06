@@ -1,0 +1,22 @@
+To predict whether a customer with the specified attributes has churned or not using the 'customer_churn_linear_regression' model, we can follow these steps:
+
+1. Input the customer's details into the model:
+
+- CreditScore: 619
+- Geography: France (Encoded as 1 for France, 0 for other countries)
+- Gender: Female (Encoded as 1 for Female, 0 for Male)
+- Age: 42
+- Tenure: 2
+- Balance: 0
+- NumOfProducts: 1
+- HasCrCard: 1
+- IsActiveMember: 1
+- EstimatedSalary: 101348.88
+
+2. Pass these values as input features into the 'customer_churn_linear_regression' model to predict the outcome (Exited).
+
+3. Based on the prediction output, the model will indicate whether the customer is predicted to have churned or not.
+
+Please note that the prediction will be a continuous value rather than a direct churned/not-churned classification.
+
+If you have the necessary tools or programming environment set up, you can directly feed these inputs to the model and obtain the prediction. If you need help with the implementation, feel free to ask!

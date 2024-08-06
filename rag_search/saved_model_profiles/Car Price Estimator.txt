@@ -1,0 +1,23 @@
+### Model Name: Car Price Estimator
+
+### Dataset Name: Used Car Sales Data
+
+### Model Overview:
+The Car Price Estimator is a linear regression model designed to predict the resale value of used cars based on various car attributes and conditions. It utilizes features such as the make and model of the car, year of manufacture, mileage, engine size, fuel type, and condition to estimate the resale price.
+
+### Intended Use:
+This model is intended for use by car dealerships, private sellers, and buyers to evaluate the market value of used cars. It helps in setting fair prices, negotiating deals, and making informed decisions when buying or selling used vehicles.
+
+### Technical Details:
+- Algorithm Type: Linear Regression
+- Input Features: ['make', 'model', 'year', 'mileage', 'engine_size', 'fuel_type', 'condition']
+- Output: Predicted resale price (USD)
+
+### Model Performance:
+- Mean Squared Error (MSE): 3,200
+- R² Score: 0.81
+
+### Limitations:
+- The model assumes a linear relationship between input variables and car prices, which may not account for all market factors.
+- Factors such as market demand, economic conditions, and unique car features not captured in the dataset can affect prediction accuracy.
+- The model's performance is dependent on the quality and comprehensiveness of the training data.

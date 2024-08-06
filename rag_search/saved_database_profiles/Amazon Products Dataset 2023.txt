@@ -1,0 +1,80 @@
+**Dataset Name**: Amazon Products Dataset 2023 (1.4M Products)
+
+**Overview**: This dataset contains comprehensive information on 1.4 million Amazon products, scraped in September 2023. It includes pricing, sales data, product categories, and various other attributes. This dataset is valuable for analyzing product trends, pricing strategies, customer ratings, and more.
+
+**Sample Data**:
+Below is a sample of the data to give an idea of the structure and content of the dataset:
+
+**amazon_products.csv**
+
+| product_id | category_id | product_name                      | price  | rating | num_reviews | sales_rank | seo_title                                                    | ... |
+|------------|-------------|-----------------------------------|--------|--------|-------------|------------|--------------------------------------------------------------|-----|
+| 1          | 10          | Drawing Pencils Set               | 12.99  | 4.5    | 254         | 1024       | Best Drawing Pencils for Artists - Complete Set of 12        | ... |
+| 2          | 3           | Crochet Hooks Set                 | 15.49  | 4.7    | 349         | 758        | Premium Crochet Hooks Set with Ergonomic Handles             | ... |
+| 3          | 7           | Craft Fabric, Multi-Color         | 19.99  | 4.3    | 112         | 1345       | Assorted Craft Fabric Squares for Quilting and Sewing        | ... |
+| 4          | 1           | Jewelry Making Kit                | 25.00  | 4.8    | 528         | 312        | Complete Jewelry Making Kit with Beads, Tools, and Supplies  | ... |
+| 5          | 12          | Gift Wrapping Paper Roll          | 7.99   | 4.2    | 76          | 1998       | Decorative Gift Wrapping Paper Roll for All Occasions        | ... |
+
+**amazon_categories.csv**
+
+| id | category_name                          |
+|----|----------------------------------------|
+| 1  | Beading & Jewelry Making               |
+| 2  | Fabric Decorating                      |
+| 3  | Knitting & Crochet Supplies            |
+| 4  | Printmaking Supplies                   |
+| 5  | Scrapbooking & Stamping Supplies       |
+| 6  | Sewing Products                        |
+| 7  | Craft & Hobby Fabric                   |
+| 8  | Needlework Supplies                    |
+| 9  | Arts, Crafts & Sewing Storage          |
+| 10 | Painting, Drawing & Art Supplies       |
+| 11 | Craft Supplies & Materials             |
+| 12 | Gift Wrapping Supplies                 |
+| 13 | Party Decorations                      |
+
+**Key Columns**:
+
+- **product_id**: Unique identifier for each product.
+- **category_id**: Identifier linking the product to a category in `amazon_categories.csv`.
+- **product_name**: Name of the product.
+- **price**: Price of the product in USD.
+- **rating**: Average customer rating (out of 5).
+- **num_reviews**: Number of customer reviews.
+- **sales_rank**: Sales rank of the product within its category.
+- **seo_title**: SEO-optimized title for the product.
+- **category_name**: Name of the category as on Amazon.com, found in `amazon_categories.csv`.
+
+**Usage**:
+This dataset can be used for various purposes, including:
+
+- **Product Trend Analysis**: Identify trending products and categories based on sales and reviews.
+- **Price Optimization**: Analyze pricing strategies to determine the optimal price range for different products.
+- **Customer Sentiment Analysis**: Evaluate customer ratings and reviews to find top-rated products.
+- **SEO Analysis**: Study SEO titles to understand what keywords and phrases are effective in driving sales.
+- **E-commerce Research**: Gain insights into spending habits and popular niches on Amazon.
+- **Machine Learning Models**: Train models for product recommendation, sales prediction, and more.
+
+**License**: ODC Attribution License (ODC-By)
+
+**Expected update frequency**: Annually
+
+**Tags**:
+- Business
+- Retail and Shopping
+- Economics
+- E-Commerce Services
+
+**Acknowledgements**:
+If you use this dataset in your research, please credit the authors.
+
+**Sample Analysis Ideas**:
+1. **Trending Product Categories**: Analyze which product categories are trending and their sales performance.
+2. **Top-Rated Products**: Find products with the highest customer ratings and analyze the factors contributing to their success.
+3. **Product Title Optimization**: Train a model to generate effective product titles based on those with the most sales.
+4. **Price Analysis**: Determine the best price for products in different categories based on sales data.
+5. **Spending Habits**: Investigate general spending habits of online shoppers on Amazon.
+6. **Database Management**: Use the dataset for practicing database management and performance optimization.
+7. **AI-based Search Model**: Train an AI-based search model to recommend Amazon products.
+
+This dataset is ideal for researchers, data analysts, and practitioners interested in e-commerce, retail analysis, and machine learning applications in the context of online shopping.

@@ -1,0 +1,20 @@
+### Dataset Name
+Online Shopping Consumer Behavior Dataset
+
+### Overview
+This dataset provides detailed insights into consumer behavior and buying patterns in e-commerce. It includes various factors influencing customer purchasing intentions, such as website awareness, product information, satisfaction levels, and technical aspects like loading speed and user interface design. The data captures both objective and subjective aspects of online shopping, making it valuable for analyzing and predicting consumer behavior.
+
+### Sample Data
+| Administrative | Informational | ProductRelated | BounceRates | ExitRates | PageValues | SpecialDay | Month | OperatingSystems | Browser | Region | TrafficType | VisitorType | Weekend | Revenue |
+|----------------|---------------|----------------|-------------|-----------|------------|------------|-------|------------------|---------|--------|-------------|-------------|---------|---------|
+| 2              | 0             | 1              | 0.2         | 0.4       | 0.0        | 0.0        | May   | 1                | 1       | 1      | 2           | Returning   | True    | False   |
+| 1              | 0             | 2              | 0.1         | 0.2       | 0.0        | 0.0        | Nov   | 2                | 3       | 3      | 1           | New         | False   | True    |
+| 3              | 1             | 4              | 0.05        | 0.15      | 0.0        | 0.4        | Feb   | 3                | 2       | 2      | 3           | Returning   | False   | False   |
+| 5              | 2             | 6              | 0.01        | 0.05      | 5.0        | 0.2        | Mar   | 1                | 1       | 1      | 2           | New         | True    | True    |
+
+### Usage
+- **Predictive Analysis**: Build machine learning models to predict purchase intentions based on browsing behavior.
+- **Consumer Behavior Analysis**: Identify patterns and trends in consumer behavior to optimize online shopping experiences.
+- **Personalized Recommendation Systems**: Develop recommendation systems to suggest products based on individual browsing history and preferences.
+- **Marketing Strategies**: Inform targeted marketing strategies by understanding factors influencing customer decisions.
+

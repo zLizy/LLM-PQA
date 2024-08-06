@@ -1,0 +1,23 @@
+### Model Name: Employee Salary Estimator
+
+### Dataset Name: Company HR Data
+
+### Model Overview:
+The Employee Salary Estimator is a linear regression model designed to predict employee salaries based on various job-related and personal factors. It uses features such as years of experience, education level, job title, department, location, and performance ratings to estimate the annual salary of employees.
+
+### Intended Use:
+This model is intended for use by HR departments, company management, and job seekers to determine fair compensation for employees. It assists in salary negotiations, budgeting, and ensuring competitive pay structures within organizations.
+
+### Technical Details:
+- Algorithm Type: Linear Regression
+- Input Features: ['years_of_experience', 'education_level', 'job_title', 'department', 'location', 'performance_ratings']
+- Output: Predicted annual salary (USD)
+
+### Model Performance:
+- Mean Squared Error (MSE): 4,500
+- R² Score: 0.78
+
+### Limitations:
+- The model assumes a linear relationship between input variables and salaries, which may not capture non-linear factors influencing compensation.
+- External economic conditions, company-specific policies, and individual negotiation skills are not considered in the model.
+- The model's predictions are only as accurate as the data provided, and any bias in the data can lead to biased salary estimates.

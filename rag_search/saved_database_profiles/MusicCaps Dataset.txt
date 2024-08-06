@@ -1,0 +1,53 @@
+**Dataset Name**: MusicCaps Dataset
+
+**Overview**: The MusicCaps dataset contains 5,521 music examples, each labeled with an English aspect list and a free text caption written by musicians. Each labeled example is a 10-second music clip from the AudioSet dataset.
+
+**Sample Data**:
+Below is a sample of the data to give an idea of the structure and content of the dataset:
+
+| ytid       | start_s | end_s | audioset_positive_labels   | aspect_list                                                       | caption                                                                                          | author_id | is_balanced_subset | is_audioset_eval |
+|------------|---------|-------|----------------------------|-------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|-----------|--------------------|------------------|
+| -0Gj8-vB1q4 | 30      | 40    | /m/0140xf,/m/02cjck,/m/04rlf | ['low quality', 'sustained strings melody', 'soft female vocal', ...| The low quality recording features a ballad song that contains sustained strings, mellow piano ... | 4         | False              | True             |
+| -0SdAVK79lg | 30      | 40    | /m/0155w,/m/01lyv,/m/0342h,/m/042v_gx,/m/04rlf,/m/04szw,/m/07s0s5r,/m/0fx80y,/m/0gg8l | ['guitar song', 'piano backing', 'simple percussion', 'relaxing m...| This song features an electric guitar as the main instrument. The guitar plays a descending run...| 0         | False              | False            |
+| -0vPFx-wRRI | 30      | 40    | /m/025_jnm,/m/04rlf         | ['amateur recording', 'finger snipping', 'male mid range voice s...| a male voice is singing a melody with changing tempos while snipping his fingers rhythmically. ...| 6         | False              | True             |
+| -0xzrMun0Rs | 30      | 40    | /m/01g90h,/m/04rlf          | ['backing track', 'jazzy', 'digital drums', 'piano', 'e-bass', '...| This song contains digital drums playing a simple groove along with two guitars. One strumming...| 6         | False              | True             |
+| -1LrH01Ei1w | 30      | 40    | /m/02p0sh1,/m/04rlf         | ['rubab instrument', 'repetitive melody on different octaves', '...| This song features a rubber instrument being played. The strumming is fast. The melody is playe...| 0         | False              | False            |
+
+**Key Columns**:
+- **ytid**: YouTube ID pointing to the video in which the labeled music segment appears.
+- **start_s**: Position in the YouTube video at which the music starts (in seconds).
+- **end_s**: Position in the YouTube video at which the music ends (in seconds). All clips are 10 seconds long.
+- **audioset_positive_labels**: Labels for this segment from the AudioSet dataset.
+- **aspect_list**: A list of aspects describing the music.
+- **caption**: A multi-sentence free text caption describing the music.
+- **author_id**: An integer for grouping samples by who wrote them.
+- **is_balanced_subset**: Indicates if the row is part of the 1k subset which is genre-balanced.
+- **is_audioset_eval**: Indicates if the clip is from the AudioSet eval split. Otherwise, it is from the AudioSet train split.
+
+**Usage**:
+This dataset can be used for various purposes, including:
+- **Music Analysis**: Explore patterns in audio features to understand trends and preferences in music.
+- **Machine Learning Models**: Train models to generate music captions based on audio features.
+- **Genre Classification**: Analyze the genre of music clips based on aspect lists and captions.
+- **Audio Quality Analysis**: Study the impact of audio quality on music perception and description.
+
+**License**: CC BY-SA 4.0
+
+**Expected update frequency**: Never
+
+**Tags**:
+- Music
+- Text
+- English
+- Audio
+
+**Acknowledgements**:
+If you use this dataset in your research, please cite the corresponding paper: http://arxiv.org/abs/2301.11325 (DOI: 10.48550/arXiv.2301.11325)
+
+**Sample Analysis Ideas**:
+1. **Music Description Generation**: Use the aspect lists and captions to train a model that generates descriptions for new music clips.
+2. **Audio Feature Extraction**: Analyze the audio features associated with different aspect lists and captions.
+3. **Caption Quality Assessment**: Evaluate the quality and consistency of captions written by different authors.
+4. **Aspect-Based Music Retrieval**: Develop a system to retrieve music clips based on specific aspects or descriptions.
+
+This dataset is ideal for researchers and practitioners interested in music analysis, audio feature extraction, and natural language processing applied to music descriptions.

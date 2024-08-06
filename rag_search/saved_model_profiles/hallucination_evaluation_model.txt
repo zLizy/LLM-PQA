@@ -1,0 +1,17 @@
+Model Overview
+The Hallucination Evaluation Model (HHEM) by Vectara, is designed for hallucination detection in Language Models (LMs), especially useful in Retrieval-Augmented Generation (RAG) applications. It evaluates factual consistency in generated text, offering support for non-English languages and handling longer sequences.
+
+Intended Use
+HHEM is aimed at developers and researchers in NLP, particularly those working on RAG applications, to ensure the factual accuracy of summarizations or other generated content. It is also suitable for broader hallucination detection tasks across different contexts.
+
+Technical Details
+Algorithm Type: Sentence Transformer Cross-Encoder
+Base Model: microsoft/deberta-v3-base
+Output: Probability score (0 to 1) indicating factual consistency
+Training Data: Trained on NLI data and fine-tuned on FEVER, Vitamin C, and PAWS datasets annotated for factual consistency
+Model Performance
+TRUE Dataset (excluding Vitamin C, FEVER, and PAWS): 0.872 AUC Score
+SummaC Benchmark (Test Split): 0.764 Balanced Accuracy, 0.831 AUC Score
+AnyScale Ranking Test for Hallucinations: 86.6% Accuracy
+Limitations
+The model may have limitations related to the diversity and representativeness of the training data. It's designed for a maximum of 512 tokens, considering both documents together, which might restrict its application on longer texts.

@@ -1,0 +1,49 @@
+**Dataset Name**: NYC Property Sales
+
+**Overview**: This dataset contains records of every building or building unit (apartment, etc.) sold in the New York City property market over a 12-month period from September 2016 to September 2017. It provides a detailed view of the NYC real estate market, including the location, address, type, sale price, and sale date of building units sold.
+
+**Sample Data**:
+Below is a sample of the data to give an idea of the structure and content:
+
+| BOROUGH | NEIGHBORHOOD | BUILDING CLASS CATEGORY | TAX CLASS AT PRESENT | BLOCK | LOT | EASE-MENT | BUILDING CLASS AT PRESENT | ADDRESS | ... |
+|---------|---------------|-------------------------|-----------------------|-------|-----|-----------|---------------------------|---------|-----|
+| 1       | ALPHABET CITY | 07 RENTALS - WALKUP APARTMENTS | 2A                    | 392   | 6   | C2        | 153 AVENUE B              |         |     |
+| 1       | ALPHABET CITY | 07 RENTALS - WALKUP APARTMENTS | 2                    | 399   | 26  | C7        | 234 EAST 4TH STREET      |         |     |
+| 1       | ALPHABET CITY | 07 RENTALS - WALKUP APARTMENTS | 2                    | 399   | 39  | C7        | 197 EAST 3RD STREET      |         |     |
+| 1       | ALPHABET CITY | 07 RENTALS - WALKUP APARTMENTS | 2B                   | 402   | 21  | C4        | 154 EAST 7TH STREET      |         |     |
+| 1       | ALPHABET CITY | 07 RENTALS - WALKUP APARTMENTS | 2A                   | 404   | 55  | C2        | 301 EAST 10TH STREET     |         |     |
+| 1       | ALPHABET CITY | 07 RENTALS - WALKUP APARTMENTS | 2                    | 405   | 16  | C4        | 516 EAST 12TH STREET     |         |     |
+| 1       | ALPHABET CITY | 07 RENTALS - WALKUP APARTMENTS | 2B                   | 406   | 32  | C4        | 210 AVENUE B             |         |     |
+| 1       | ALPHABET CITY | 07 RENTALS - WALKUP APARTMENTS | 2                    | 407   | 18  | C7        | 520 EAST 14TH STREET     |         |     |
+| 1       | ALPHABET CITY | 08 RENTALS - ELEVATOR APARTMENTS | 2                   | 379   | 34  | D5        | 141 AVENUE D             |         |     |
+| 1       | ALPHABET CITY | 08 RENTALS - ELEVATOR APARTMENTS | 2                   | 387   | 153 | D9        | 629 EAST 5TH STREET      |         |     |
+
+**Key Columns**:
+- **BOROUGH**: A digit code for the borough the property is located in; in order these are Manhattan (1), Bronx (2), Brooklyn (3), Queens (4), and Staten Island (5).
+- **NEIGHBORHOOD**: The neighborhood where the property is located.
+- **BUILDING CLASS CATEGORY**: The type of building or building unit.
+- **TAX CLASS AT PRESENT**: The current tax classification of the property.
+- **BLOCK**: The block number of the property.
+- **LOT**: The lot number of the property.
+- **EASE-MENT**: Any easements on the property.
+- **BUILDING CLASS AT PRESENT**: The current classification of the building.
+- **ADDRESS**: The address of the property.
+
+**Usage**: This dataset can be used for:
+- Analyzing trends in the New York City real estate market.
+- Building predictive models to forecast future property sales and prices.
+- Identifying the most and least expensive neighborhoods in NYC.
+- Evaluating the impact of building type and location on property prices.
+
+**License**: CC0: Public Domain
+
+**Expected update frequency**: Not specified
+
+**Tags**:
+- Real Estate
+- Cities and Urban Areas
+- Property Sales
+- Market Analysis
+- Predictive Modeling
+
+This dataset is ideal for anyone interested in exploring the dynamics of the NYC real estate market, providing a comprehensive view of property sales across the city.

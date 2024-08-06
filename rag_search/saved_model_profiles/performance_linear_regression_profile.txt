@@ -1,0 +1,26 @@
+Model Name: performance_linear_regression
+
+Dataset Name: Student_Performance
+
+Model Overview:
+The performance_linear_regression model is a linear regression model designed to predict student performance based on several input features. These features include 'Hours Studied', 'Previous Scores', 'Extracurricular Activities (Yes/No)', 'Sleep Hours', and 'Sample Question Papers Practiced'. By inputting these factors, the model can estimate a student's performance based on historical data.
+
+Intended Use:
+This model is ideal for educational institutions and researchers looking to predict student performance based on various academic and non-academic factors. It can be used to identify areas where students may need additional support or resources to improve their academic outcomes.
+
+Technical Details:
+- Algorithm Type: Linear Regression
+- Input Features: 
+  - Hours Studied
+  - Previous Scores
+  - Extracurricular Activities (Yes/No)
+  - Sleep Hours
+  - Sample Question Papers Practiced
+- Output: Predicted student performance score
+
+Model Performance:
+- Mean Squared Error (MSE): 4.090205053623002
+- R² Score: 0.9887313885106771
+
+Limitations:
+Linear regression models have limitations when assumptions such as linearity, independence of errors, homoscedasticity, and normality of residuals are violated. Additionally, the model's performance may be impacted by the quality and diversity of the input data. It may not perform well if the input features do not have a linear relationship with the target variable or if there is significant noise in the data.

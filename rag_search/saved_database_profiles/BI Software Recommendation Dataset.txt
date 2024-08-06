@@ -1,0 +1,31 @@
+### Dataset Name
+BI Software Recommendation Dataset
+
+### Overview
+This dataset contains information on various Business Intelligence (BI) tools, designed to build a product recommendation system based on user requirements. The data includes 100 rows and 11 features, covering aspects such as tool category, industry application, business scale, user type, deployment options, operating system compatibility, and pricing models.
+
+### Sample Data
+| product_id | category       | industry     | business_scale | user_type | no_of_users | deployment | OS    | mobile_apps | pricing   | rating |
+|------------|----------------|--------------|----------------|-----------|-------------|------------|-------|-------------|-----------|--------|
+| 100001     | Data Management| Utilities    | Large          | Business  | Single      | Cloud      | Linux | Y           | Freemium  | 4.5    |
+| 100002     | Database/ERP   | Food         | Large          | Business  | Single      | On-Premise | Mac   | Y           | Freemium  | 4.3    |
+| 100003     | Data Analysis  | Manufacturing| Large          | Business  | Single      | Cloud      | Windows| N           | Enterprise| 4.7    |
+
+### Usage
+- **Recommendation Systems**: Develop a knowledge-based recommendation system that suggests BI tools based on specific user requirements.
+- **Market Analysis**: Analyze the suitability of various BI tools across different industries and business scales.
+- **User Preference Studies**: Understand preferences and requirements of different user types (Business vs Analytical).
+
+### Features
+- `product_id`: Unique identifier for the BI tool.
+- `category`: Type of BI tool (e.g., Data Management, Database/ERP).
+- `industry`: Industry where the BI tool can be applied.
+- `business_scale`: Business size catered to (Small, Medium, Large).
+- `user_type`: Intended user type (Business, Analytical).
+- `no_of_users`: Licensing type (Single, Multiple).
+- `deployment`: Deployment method (Cloud, On-Premise, Hybrid).
+- `OS`: Compatible operating system (Linux, Mac, Windows).
+- `mobile_apps`: Availability of mobile applications (Y/N).
+- `pricing`: Pricing model (Open Source, Freemium, Enterprise).
+- `rating`: User rating on a scale of 5.0.
+

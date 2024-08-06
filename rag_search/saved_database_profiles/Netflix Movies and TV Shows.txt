@@ -1,0 +1,55 @@
+### Dataset Name
+Netflix Movies and TV Shows
+
+### Overview
+This dataset contains listings of all the movies and TV shows available on Netflix. The dataset includes various details about each title, such as cast, directors, ratings, release year, duration, and country of production. It is regularly updated to provide the most current information.
+
+### Sample Data
+Below is a sample of the type of data included in the dataset:
+
+| show_id | type    | title               | director         | cast                                                                                          | country       | date_added     | release_year | rating | duration   |
+|---------|---------|---------------------|------------------|-----------------------------------------------------------------------------------------------|---------------|----------------|--------------|--------|------------|
+| s1      | Movie   | Dick Johnson Is Dead| Kirsten Johnson  | -                                                                                             | United States | September 25, 2021 | 2020         | PG-13  | 90 min     |
+| s2      | TV Show | Blood & Water       | -                | Ama Qamata, Khosi Ngema, Gail Mabalane, Thabang Molaba, Dillon Windvogel, Natasha Thahane, Arno Greeff | South Africa  | September 24, 2021 | 2021         | TV-MA  | 2 Seasons  |
+| s3      | TV Show | Ganglands           | Julien Leclercq  | Sami Bouajila, Tracy Gotoas, Samuel Jouy, Nabiha Akkari, Sofia Lesaffre, Salim Kechiouche, Noureddine Farihi | -             | September 24, 2021 | 2021         | TV-MA  | 1 Season   |
+| s4      | TV Show | Jailbirds New Orleans | -               | -                                                                                             | -             | September 24, 2021 | 2021         | TV-MA  | 1 Season   |
+| s5      | TV Show | Kota Factory        | -                | Mayur More, Jitendra Kumar, Ranjan Raj, Alam Khan, Ahsaas Channa, Revathi Pillai, Urvi Singh, Arun Kumar | India         | September 24, 2021 | 2021         | -      | 1 Season   |
+
+### Features
+- **show_id**: Unique ID for every Movie / TV Show.
+- **type**: Identifier - A Movie or TV Show.
+- **title**: Title of the Movie / TV Show.
+- **director**: Director of the Movie.
+- **cast**: Actors involved in the Movie / TV Show.
+- **country**: Country where the Movie / TV Show was produced.
+- **date_added**: Date it was added on Netflix.
+- **release_year**: Actual Release year of the Movie / TV Show.
+- **rating**: TV Rating of the Movie / TV Show.
+- **duration**: Total Duration - in minutes or number of seasons.
+
+### Usage
+- **Content Availability**: Understand what content is available in different countries.
+- **Content Similarity**: Identify similar content by matching text-based features.
+- **Network Analysis**: Analyze relationships between Actors / Directors and derive interesting insights.
+- **Content Trends**: Analyze whether Netflix has shifted its focus more towards TV Shows than Movies in recent years.
+
+### Accessing the Dataset
+The dataset can be downloaded in CSV format from the provided link. It is updated quarterly to ensure the data remains current and useful for various analyses.
+
+### Example Usage
+Here is an example code snippet for loading and exploring the dataset using pandas:
+
+```python
+import pandas as pd
+
+# Load the dataset
+df = pd.read_csv('netflix_titles.csv')
+
+# Display the first few rows
+print(df.head())
+
+# Basic summary statistics
+print(df.describe())
+
+# Count the number of Movies and TV Shows
+print(df['type'].value_counts())

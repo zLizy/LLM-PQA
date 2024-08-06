@@ -1,0 +1,16 @@
+### Dataset Name
+Amazon UK Products Dataset 2023 (2.2M Products)
+
+### Overview
+This dataset contains detailed information about 2.2 million products sold on Amazon UK, including pricing, sales, ratings, and other product attributes. The data was scraped in October 2023.
+
+### Sample Data
+| asin        | title                                                                                          | stars | reviews | price | isBestSeller | boughtInLastMonth | categoryName    |
+|-------------|------------------------------------------------------------------------------------------------|-------|---------|-------|--------------|-------------------|-----------------|
+| B09B96TG33  | Echo Dot (5th generation, 2022 release) | Big vibrant sound Wi-Fi and Bluetooth smart speaker with Alexa | 4.7   | 15308   | 21.99 | False        | 0                 | Hi-Fi Speakers  |
+| B01HTH3C8S  | Anker Soundcore mini, Super-Portable Bluetooth Speaker with 15-Hour Playtime                    | 4.7   | 98099   | 27.99 | False        | 0                 | Hi-Fi Speakers  |
+
+### Usage
+- **Product Performance Analysis**: Identify top-selling and highest-rated products.
+- **Price Optimization**: Analyze pricing strategies across different categories.
+- **SEO Optimization**: Study the titles and descriptions of best-selling products to improve SEO.

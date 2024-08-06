@@ -1,0 +1,17 @@
+Model Overview
+The Fine-Tuned Vision Transformer (ViT) is adapted from the original transformer architecture for image classification. This model, named "google/vit-base-patch16-224-in21k," undergoes pre-training on the ImageNet-21k dataset, with images resized to 224x224 pixels. It's specifically fine-tuned for NSFW (Not Safe for Work) image classification, utilizing a proprietary dataset of 80,000 images categorized into "normal" and "nsfw" to accurately identify explicit content.
+
+Intended Use
+This model is primarily designed for NSFW image classification, assisting in filtering explicit content across various digital platforms. It's a critical tool for enhancing content safety and moderation.
+
+Technical Details
+Algorithm Type: Transformer Encoder Architecture
+Input Features: Images resized to 224x224 pixels
+Output: Classification as "normal" or "nsfw"
+Architecture Details: Leverages the ImageNet-21k dataset for pre-training; fine-tuned with a batch size of 16 and a learning rate of 5e-5.
+Training Data: Proprietary dataset of 80,000 images with "normal" and "nsfw" classes.
+Model Performance
+The model demonstrates high accuracy in NSFW image classification, showcasing its efficiency and reliability in content moderation tasks. Training statistics include an evaluation loss of 0.0746, accuracy of 98.0375%, and evaluation runtime of approximately 305 seconds.
+
+Limitations
+While highly effective in NSFW content identification, its performance might vary across different image classification tasks. Users looking for other applications should consider model variants fine-tuned for those specific tasks.

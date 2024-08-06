@@ -1,0 +1,25 @@
+**Dataset Name**: Zillow Economics Data
+
+**Overview**: This dataset, curated by Zillow's Economic Research Team, encompasses extensive housing and economic data from various public and proprietary sources. It includes information such as property records, transactional histories, and data derived from property listings and user behavior on Zillow. This dataset is designed to provide comprehensive insights into the housing market and economic trends. Below is a sample of the data to provide insight into the typical content and structure of the dataset:
+
+| Date       | RegionName      | InventorySeasonallyAdjusted_AllHomes | InventoryRaw_AllHomes | MedianListingPricePerSqft_1Bedroom | MedianListingPricePerSqft_2Bedroom | MedianListingPricePerSqft_3Bedroom | MedianListingPricePerSqft_4Bedroom | MedianListingPricePerSqft_5BedroomOrMore | MedianListingPricePerSqft_AllHomes |
+|------------|-----------------|--------------------------------------|-----------------------|-------------------------------------|------------------------------------|------------------------------------|------------------------------------|----------------------------------------|----------------------------------|
+| 1996-04-30 | abbottstownadamspa | ...                                  | ...                   | ...                                 | ...                                | ...                                | ...                                | ...                                    | ...                              |
+| 1996-04-30 | aberdeenbinghamid | ...                                  | ...                   | ...                                 | ...                                | ...                                | ...                                | ...                                    | ...                              |
+| 1996-04-30 | aberdeenharfordmd | ...                                  | ...                   | ...                                 | ...                                | ...                                | ...                                | ...                                    | ...                              |
+| 1996-04-30 | aberdeenmonroems  | ...                                  | ...                   | ...                                 | ...                                | ...                                | ...                                | ...                                    | ...                              |
+| 1996-04-30 | aberdeenmoorenc   | ...                                  | ...                   | ...                                 | ...                                | ...                                | ...                                | ...                                    | ...                              |
+
+**Usage**: This dataset is valuable for researchers, analysts, and policymakers to study housing market trends, economic conditions, and real estate metrics across various regions in the United States. It can be used for a variety of analyses including:
+
+- Evaluating housing market trends and property value fluctuations.
+- Analyzing rental market conditions and rental price changes.
+- Investigating regional differences in housing market dynamics.
+- Predicting future housing market trends and property values.
+- Assessing the impact of economic factors on housing markets.
+
+The dataset supports a wide range of economic and housing market analyses, making it a crucial resource for understanding the real estate market.
+
+**License**: Data files © Original Authors
+
+**Expected update frequency**: Not specified

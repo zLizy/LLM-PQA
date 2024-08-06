@@ -1,0 +1,14 @@
+**Dataset Name**: Automobile Dataset
+
+**Overview**: This dataset consists of data from the 1985 Ward's Automotive Yearbook and includes various characteristics of automobiles, their assigned insurance risk ratings, and normalized losses in use. The dataset is useful for analyzing automotive specifications, insurance risk factors, and loss data. The columns in the dataset include: ['symboling', 'normalized-losses', 'make', 'fuel-type', 'aspiration', 'num-of-doors', 'body-style', 'drive-wheels', 'engine-location', 'wheel-base']. Below is a sample of the data to provide insight into the typical content and structure of the dataset:
+
+symboling, normalized-losses, make, fuel-type, aspiration, num-of-doors, body-style, drive-wheels, engine-location, wheel-base
+3, ?, alfa-romero, gas, std, two, convertible, rwd, front, 88.6
+3, ?, alfa-romero, gas, std, two, convertible, rwd, front, 88.6
+1, ?, alfa-romero, gas, std, two, hatchback, rwd, front, 94.5
+2, 164, audi, gas, std, four, sedan, fwd, front, 99.8
+2, 164, audi, gas, std, four, sedan, 4wd, front, 99.4
+
+**Usage**: The Automobile Dataset is extensively used in automotive research and insurance analysis. It is particularly useful for developing machine learning models to predict automobile insurance risk, vehicle performance, and market trends. This dataset supports a wide range of analyses, from understanding the impact of vehicle specifications on insurance risk to evaluating automotive safety and performance metrics.
+
+The Automobile Dataset is essential for both academic research and practical applications in the automotive industry. It aids researchers, actuaries, and industry professionals in identifying risk factors, optimizing vehicle designs, and improving overall safety and performance standards.

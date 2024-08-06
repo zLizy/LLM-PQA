@@ -1,0 +1,69 @@
+**Dataset Name**: Spotify and YouTube
+
+**Overview**: This dataset contains statistics for the top 10 songs of various artists on Spotify, along with their corresponding YouTube video statistics. It includes several attributes describing the music version on Spotify and the official music video of the song on YouTube.
+
+**Sample Data**:
+Below is a sample of the data to give an idea of the structure and content of the dataset:
+
+| id | Artist   | Url_spotify                                      | Track                                  | Album                                  | Album_type | Uri                                     | Danceability | Energy | Key | Loudness | Speechiness | Acousticness | Instrumentalness | Liveness | Valence | Tempo | Duration_ms | Stream | Url_youtube                  | Title                                  | Channel            | Views     | Likes   | Comments | Description                          | Licensed | official_video |
+|----|----------|--------------------------------------------------|----------------------------------------|----------------------------------------|------------|------------------------------------------|--------------|--------|-----|----------|-------------|--------------|------------------|----------|---------|-------|-------------|--------|------------------------------|----------------------------------------|--------------------|-----------|---------|----------|--------------------------------------|----------|----------------|
+| 1  | Gorillaz | https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ | Feel Good Inc.                         | Demon Days                             | album      | spotify:track:0d28khcov6AiegSCpG5TuT    | 0.818        | 0.705  | 6   | -7.4     | 0.0309      | 0.0547       | 0.00000          | 0.187    | 0.682   | 139.9 | 224227      | 573824872 | https://youtu.be/HyHNuVaZJ-k  | Feel Good Inc. (Official Video)       | Gorillaz            | 312567843 | 2000000 | 15800    | Official HD Video                    | Yes      | True           |
+| 2  | Gorillaz | https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ | Rhinestone Eyes                        | Plastic Beach                          | album      | spotify:track:1foMv2HQwfQ2vntFf9HFeG    | 0.676        | 0.703  | 8   | -7.1     | 0.0352      | 0.00052       | 0.00000          | 0.159    | 0.437   | 87.2  | 208853      | 83562893  | https://youtu.be/4Bp-ihtgzdE  | Rhinestone Eyes (Official Video)      | Gorillaz            | 136789334 | 850000  | 6800     | Official HD Video                    | Yes      | True           |
+| 3  | Gorillaz | https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ | New Gold (feat. Tame Impala and Bootie Brown) | New Gold (feat. Tame Impala and Bootie Brown) | single     | spotify:track:64dLd6rVqDLtkXFYrEUHIU | 0.695        | 0.923  | 1   | -4.5     | 0.0568      | 0.0125       | 0.00000          | 0.167    | 0.775   | 105.0 | 178293      | 142576813 | https://youtu.be/J4PZkBwTzog  | New Gold (Official Video)             | Gorillaz            | 245678321 | 1450000 | 12000    | Official HD Video                    | Yes      | True           |
+| 4  | Gorillaz | https://open.spotify.com/artist/3AA28KZvwAUcZuOKwyblJQ | On Melancholy Hill                    | Plastic Beach                          | album      | spotify:track:6nYNLntP0jwPIGq53eMBVe   | 0.673        | 0.630  | 7   | -6.7     | 0.0278      | 0.1570       | 0.00000          | 0.147    | 0.415   | 86.0  | 229147      | 129873764 | https://youtu.be/04mfKJWDSzI  | On Melancholy Hill (Official Video)   | Gorillaz            | 157893421 | 950000  | 5800     | Official HD Video                    | Yes      | True           |
+
+**Key Columns**:
+- **Artist**: Name of the artist.
+- **Url_spotify**: URL of the artist on Spotify.
+- **Track**: Name of the song as visible on the Spotify platform.
+- **Album**: The album in which the song is contained on Spotify.
+- **Album_type**: Indicates if the song is released as a single or contained in an album.
+- **Uri**: Spotify link used to find the song through the API.
+- **Danceability**: Describes how suitable a track is for dancing (0.0 to 1.0).
+- **Energy**: Represents a perceptual measure of intensity and activity (0.0 to 1.0).
+- **Key**: The key the track is in, using standard Pitch Class notation.
+- **Loudness**: The overall loudness of a track in decibels (dB).
+- **Speechiness**: Detects the presence of spoken words in a track (0.0 to 1.0).
+- **Acousticness**: A confidence measure of whether the track is acoustic (0.0 to 1.0).
+- **Instrumentalness**: Predicts whether a track contains no vocals (0.0 to 1.0).
+- **Liveness**: Detects the presence of an audience in the recording (0.0 to 1.0).
+- **Valence**: Describes the musical positiveness conveyed by a track (0.0 to 1.0).
+- **Tempo**: The overall estimated tempo of a track in beats per minute (BPM).
+- **Duration_ms**: The duration of the track in milliseconds.
+- **Stream**: Number of streams of the song on Spotify.
+- **Url_youtube**: URL of the video linked to the song on YouTube.
+- **Title**: Title of the videoclip on YouTube.
+- **Channel**: Name of the channel that published the video.
+- **Views**: Number of views on YouTube.
+- **Likes**: Number of likes on YouTube.
+- **Comments**: Number of comments on YouTube.
+- **Description**: Description of the video on YouTube.
+- **Licensed**: Indicates whether the video represents licensed content.
+- **official_video**: Boolean indicating if the video is the official video of the song.
+
+**Usage**:
+This dataset can be used for various purposes, including:
+- **Music Popularity Analysis**: Analyze the popularity of songs based on Spotify streams and YouTube views.
+- **Music Recommendation Systems**: Develop recommendation systems that consider both Spotify and YouTube statistics.
+- **Comparative Analysis**: Compare the engagement metrics across Spotify and YouTube platforms.
+- **Content Creation Strategies**: Understand which attributes contribute to higher engagement on music platforms.
+
+**License**: CC0: Public Domain
+
+**Expected update frequency**: Never
+
+**Tags**:
+- Music
+- Data Analytics
+- Data Visualization
+
+**Acknowledgements**:
+These data are heavily dependent on the time they were collected, which is February 7th, 2023.
+
+**Sample Analysis Ideas**:
+1. **Popularity Metrics Correlation**: Analyze the correlation between Spotify streams and YouTube views, likes, and comments.
+2. **Feature Impact Analysis**: Study how different audio features (e.g., danceability, energy) affect the popularity of songs.
+3. **Engagement Analysis**: Investigate which platform (Spotify or YouTube) garners more engagement for specific artists or genres.
+4. **Temporal Trends**: Examine how the popularity of songs changes over time on both platforms.
+
+This dataset is ideal for researchers and practitioners interested in music analysis, recommendation systems, and multi-platform engagement analysis.

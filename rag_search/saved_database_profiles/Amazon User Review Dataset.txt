@@ -1,0 +1,30 @@
+### Dataset Name
+Amazon User Review Dataset
+
+### Overview
+This dataset contains reviews of food products on Amazon, providing valuable insights into customer satisfaction and product quality. The data includes various attributes such as user ratings, helpfulness of the reviews, and detailed textual feedback, which can be utilized for sentiment analysis, product recommendation systems, and quality assessment.
+
+### Sample Data
+| Id | Product Id | User Id | Profile Name | HelpfulnessNumerator | HelpfulnessDenominator | Score | Time      | Summary                | Text                                      |
+|----|------------|---------|--------------|----------------------|-----------------------|-------|-----------|------------------------|-------------------------------------------|
+| 1  | B001E4KFG0 | A3SGXH7AUHU8GW | John Doe     | 1                    | 1                     | 5     | 1303862400| Good Quality Dog Food  | I have bought several of the Vitality... |
+| 2  | B00813GRG4 | A1D87F6ZCVE5NK | Jane Smith   | 0                    | 0                     | 1     | 1346976000| Not as Advertised       | Product arrived labeled as Jumbo Salted... |
+| 3  | B000LQOCH0 | ABXLMWJIXXAIN  | Alex Johnson | 3                    | 3                     | 4     | 1219017600| Delight says it all    | This is a confection that has been around... |
+
+### Usage
+- **Product Quality Assessment**: Analyze reviews to determine the overall quality and satisfaction levels of various food products.
+- **Recommendation Systems**: Develop algorithms to recommend products based on user reviews and ratings.
+- **Sentiment Analysis**: Perform sentiment analysis on the review text to gauge customer sentiment and feedback trends.
+- **Customer Feedback**: Identify common issues and positive aspects highlighted by customers to improve product offerings.
+
+### Features
+- `Id`: Index of the review.
+- `Product Id`: Unique identifier for the product on Amazon.
+- `User Id`: Unique identifier for the user who reviewed the product.
+- `Profile Name`: Name of the reviewer.
+- `HelpfulnessNumerator`: Number of users who found the review helpful.
+- `HelpfulnessDenominator`: Number of users who did not find the review helpful.
+- `Score`: Rating given by the user (scale of 1 to 5).
+- `Time`: Timestamp of the review submission.
+- `Summary`: Short summary of the review.
+- `Text`: Detailed review text provided by the user.

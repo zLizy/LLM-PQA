@@ -1,0 +1,24 @@
+**Dataset Name**: Melbourne Housing Market
+
+**Overview**: This dataset includes housing clearance data for Melbourne, Australia, starting from January 2016. The data was scraped from publicly available results posted weekly on Domain.com.au. It includes various attributes related to real estate transactions such as property type, sale method, number of rooms, sale price, and more. Below is a sample of the data to provide insight into the typical content and structure of the dataset:
+
+| Suburb      | Address          | Rooms | Type | Price  | Method | SellerG | Date       | Postcode | Regionname           | ... |
+|-------------|------------------|-------|------|--------|--------|---------|------------|----------|----------------------|-----|
+| Abbotsford  | 49 Lithgow St    | 3     | h    | 1490000| S      | Jellis  | 1/04/2017  | 3067     | Northern Metropolitan| ... |
+| Abbotsford  | 59A Turner St    | 3     | h    | 1220000| S      | Marshall| 1/04/2017  | 3067     | Northern Metropolitan| ... |
+| Abbotsford  | 119B Yarra St    | 3     | h    | 1420000| S      | Nelson  | 1/04/2017  | 3067     | Northern Metropolitan| ... |
+| Aberfeldie  | 68 Vida St       | 3     | h    | 1515000| S      | Barry   | 1/04/2017  | 3040     | Western Metropolitan | ... |
+| Airport West| 92 Clydesdale Rd | 2     | h    | 670000 | S      | Nelson  | 1/04/2017  | 3042     | Western Metropolitan | ... |
+
+**Usage**: This dataset is ideal for analyzing trends in the Melbourne housing market, including price fluctuations, the impact of distance from the CBD, and the popularity of different selling methods. It can be used for predictive modeling to forecast housing prices, identify market trends, and assist in making informed real estate investment decisions. The dataset supports various types of analyses, such as:
+
+- Identifying when the housing market cooled off
+- Analyzing the variables that indicate a slowdown in the market
+- Predicting future trends in the housing market
+- Assessing the best suburbs to buy property
+
+The dataset is valuable for researchers, data analysts, and anyone interested in the real estate market of Melbourne.
+
+**License**: CC BY-NC-SA 4.0 (Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International)
+
+**Expected update frequency**: Not specified

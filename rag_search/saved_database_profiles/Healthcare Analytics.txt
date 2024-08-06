@@ -1,0 +1,14 @@
+**Dataset Name**: AV : Healthcare Analytics
+
+**Overview**: This dataset contains data related to health camps organized by MedCamp over a period of 4 years. The data includes information on registration, patient profiles, and attendance details for different formats of health camps. The goal is to predict the probability of a favorable outcome, such as obtaining a health score or visiting a stall. The dataset is divided into multiple files, each capturing different aspects of the health camps and patient interactions. The columns in the dataset include: ['Health_Camp_Id', 'Camp_Start_Date', 'Camp_End_Date', 'Category', 'Patient_ID', 'Registration_Date', 'Online_Follower', 'Social_media', 'Income', 'Education', 'Age', 'First_Interaction_Date', 'City_Type', 'Employer_Category', 'Donation', 'Health_Score', 'Number_of_stall_visited', 'Last_Stall_Visited_Number']. Below is a sample of the data to provide insight into the typical content and structure of the dataset:
+
+Health_Camp_Id, Camp_Start_Date, Camp_End_Date, Category, Patient_ID, Registration_Date, Online_Follower, Social_media, Income, Education, Age, First_Interaction_Date, City_Type, Employer_Category, Donation, Health_Score, Number_of_stall_visited, Last_Stall_Visited_Number
+1, 2014-01-01, 2014-01-10, Awareness, 1001, 2013-12-15, 0, 1, High, Graduate, 45, 2013-01-01, Urban, IT, 100, 85, 3, 1
+2, 2015-02-01, 2015-02-15, Health Checkup, 1002, 2015-01-20, 1, 0, Medium, Undergraduate, 38, 2014-06-01, Suburban, Healthcare, 200, 90, 4, 2
+3, 2016-03-01, 2016-03-10, Awareness, 1003, 2016-02-15, 1, 1, Low, High School, 29, 2015-03-01, Rural, Education, 150, 80, 2, 1
+4, 2017-04-01, 2017-04-15, Health Checkup, 1004, 2017-03-20, 0, 0, High, Postgraduate, 52, 2016-04-01, Urban, Finance, 250, 95, 5, 3
+5, 2018-05-01, 2018-05-10, Awareness, 1005, 2018-04-15, 1, 1, Medium, Graduate, 34, 2017-05-01, Suburban, Manufacturing, 100, 85, 3, 2
+
+**Usage**: The AV : Healthcare Analytics dataset is extensively used in predictive analytics and healthcare research. It is particularly useful for developing machine learning models to predict health camp outcomes based on various demographic, behavioral, and event-specific factors. This dataset supports a wide range of healthcare analyses, from understanding the determinants of camp attendance to optimizing resource allocation for future events.
+
+The dataset is essential for both academic research and practical applications in the healthcare industry. It aids healthcare professionals, event organizers, and researchers in identifying trends, improving patient engagement, and ensuring efficient use of resources to enhance the overall effectiveness of health camps.

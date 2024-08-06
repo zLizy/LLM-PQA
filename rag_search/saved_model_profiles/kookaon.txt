@@ -1,0 +1,26 @@
+### Model Name: kookaon
+
+### Dataset Name: nakajitara/kookaon
+
+### Model Overview:
+The kookaon model is a Random Forest algorithm designed to predict the energy of a song based on various acoustic variables. It analyzes features such as danceability, instrumentalness, acousticness, loudness, valence, tempo, speechiness, time signature, and liveness to estimate the musical energy of a song.
+
+### Intended Use:
+This model is intended for use by musicians, music producers, and music fans to assess the energy level of a song. It can be utilized for playlist personalization, music recommendation systems, and trend analysis in the music industry.
+
+### Technical Details:
+- Algorithm Type: Random Forest
+- Input Features: ['danceability', 'instrumentalness', 'acousticness', 'loudness', 'valence', 'tempo', 'speechiness', 'time_signature', 'liveness']
+- Output: Predicted energy of a song
+- Hyperparameters: max_depth=217, min_samples_leaf=45, n_estimators=34
+
+### Model Performance:
+- Mean Squared Error (MSE): 0.009691
+- Mean Absolute Error (MAE): 0.072
+- R² Score: 0.86
+- Root Mean Squared Error (RMSE): 0.098
+- Accuracy: 0.88 (training set), 0.86 (validation set)
+- Cross-Validation Mean: 0.862, Standard Deviation: 0.004
+
+### Limitations:
+- The model assumes that the relationship between the input features and the song's energy is consistent across all songs. This may not hold true in cases where the song's energy is influenced by factors not included in the model. Additionally, the Random Forest algorithm, while robust, may not capture very complex interactions between features, and the model's performance can be affected by the presence of outliers in the data.

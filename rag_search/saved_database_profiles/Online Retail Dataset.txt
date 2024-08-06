@@ -1,0 +1,16 @@
+### Dataset Name
+TATA: Online Retail Dataset
+
+### Overview
+This dataset contains sales transaction data from a UK-based online retail store over one year. The data includes information on products, quantities, prices, and customer demographics, which can be used for revenue analysis, marketing effectiveness evaluation, and strategic planning.
+
+### Sample Data
+| InvoiceNo | StockCode | Description                      | Quantity | InvoiceDate         | UnitPrice | CustomerID | Country        |
+|-----------|-----------|----------------------------------|----------|---------------------|-----------|------------|----------------|
+| 536365    | 85123A    | WHITE HANGING HEART T-LIGHT HOLDER | 6        | 01-12-2010 08:26    | 2.55      | 17850      | United Kingdom |
+| 536365    | 71053     | WHITE METAL LANTERN              | 6        | 01-12-2010 08:26    | 3.39      | 17850      | United Kingdom |
+
+### Usage
+- **Revenue Analysis**: Identify top-performing product categories and regions contributing to revenue.
+- **Marketing Effectiveness**: Analyze customer acquisition, retention, and engagement metrics.
+- **Customer Demographics**: Segment customers based on demographics and buying behavior for personalized marketing.

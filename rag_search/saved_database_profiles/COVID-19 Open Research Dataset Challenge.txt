@@ -1,0 +1,34 @@
+### Dataset Name
+COVID-19 Open Research Dataset Challenge (CORD-19)
+
+### Overview
+The COVID-19 Open Research Dataset (CORD-19) is a resource of over 1,000,000 scholarly articles, including over 400,000 with full text, about COVID-19, SARS-CoV-2, and related coronaviruses. This dataset has been prepared in response to the COVID-19 pandemic by a coalition of leading research groups to aid the global research community in applying AI and data mining techniques to generate new insights and support ongoing efforts to combat the disease.
+
+### Sample Data
+Due to the large size and complexity of the dataset, here's an example of the kind of data you might find in one of the articles:
+
+| Title                                     | Authors                     | Abstract                                                                                         | Published Year | Journal                 | Full Text Available |
+|-------------------------------------------|-----------------------------|--------------------------------------------------------------------------------------------------|----------------|-------------------------|-------------------|
+| COVID-19 and the Heart                    | John Doe, Jane Smith        | This study examines the impact of COVID-19 on cardiovascular health...                          | 2020           | Journal of Cardiology  | Yes               |
+| Understanding SARS-CoV-2 Transmission     | Alice Johnson, Bob Brown    | An in-depth analysis of the transmission mechanisms of SARS-CoV-2...                            | 2020           | Virology Journal        | Yes               |
+| Vaccine Development for COVID-19          | Michael Green, Sarah White  | Progress in the development of vaccines targeting SARS-CoV-2...                                 | 2021           | Vaccine Research        | No                |
+
+### Usage
+- **Text and Data Mining**: Develop tools to mine text and data for insights into COVID-19.
+- **Research Analysis**: Conduct comprehensive reviews and meta-analyses of the COVID-19 literature.
+- **AI Applications**: Apply natural language processing (NLP) and machine learning techniques to answer high-priority scientific questions.
+- **Information Retrieval**: Develop systems to help medical professionals and researchers retrieve relevant information quickly and accurately.
+
+### Features
+The dataset contains a wide variety of features extracted from scholarly articles. Key features include:
+- `Title`: The title of the article.
+- `Authors`: List of authors who contributed to the article.
+- `Abstract`: A summary of the article.
+- `Published Year`: The year the article was published.
+- `Journal`: The journal in which the article was published.
+- `Full Text Available`: Indicates whether the full text of the article is available.
+
+### Accessing the Dataset
+The dataset can be accessed on Kaggle, AI2's Semantic Scholar, and through AI2's COVID-19 explorer. The licenses for each dataset can be found in the `all_sources_metadata.csv` file.
+
+This dataset provides a comprehensive resource for researchers and data scientists to contribute to the global understanding and mitigation of COVID-19 through advanced data analysis and AI techniques.

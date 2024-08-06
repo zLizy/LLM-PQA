@@ -1,0 +1,17 @@
+Model Overview
+The Vision Transformer (ViT), pre-trained on ImageNet-21k and fine-tuned on ImageNet 2012, introduces a BERT-like architecture to image classification tasks. By treating images as sequences of patches, ViT applies the Transformer encoder's capability to learn internal representations, enabling it to perform image classification effectively.
+
+Intended Use
+This model is primarily intended for image classification tasks. It can classify images into one of the 1,000 ImageNet classes, making it suitable for a wide range of image recognition applications.
+
+Technical Details
+Algorithm Type: Transformer Encoder (BERT-like)
+Input Features: Images as sequences of 16x16 patches, with a resolution of 224x224 pixels
+Output: Classification into one of 1,000 ImageNet classes
+Pre-training Data: ImageNet-21k dataset, 14 million images across 21,843 classes
+Fine-tuning Data: ImageNet (ILSVRC2012), 1 million images across 1,000 classes
+Model Performance
+The model has demonstrated significant effectiveness in image classification benchmarks, with best results obtained at a higher resolution (384x384). Model size increment leads to improved performance.
+
+Limitations
+The model's performance is closely tied to the characteristics and quality of the training data. It is primarily designed for image classification; its effectiveness in other vision tasks might vary.

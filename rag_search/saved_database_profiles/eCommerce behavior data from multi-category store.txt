@@ -1,0 +1,46 @@
+**Dataset Name**: eCommerce behavior data from multi-category store
+
+**Overview**: This dataset contains detailed behavior data collected over 7 months (October 2019 to April 2020) from a large multi-category online store. Each row in the dataset represents an event related to products and users, capturing various user interactions such as views, additions to the shopping cart, removals from the cart, and purchases.
+
+**Sample Data**:
+Here is a sample representation of the data to provide insight into the typical content and structure of the dataset:
+
+| event_time           | event_type | product_id     | category_id   | category_code          | brand      | price | user_id         | user_session                             |
+|----------------------|------------|----------------|---------------|------------------------|------------|-------|-----------------|-------------------------------------------|
+| 2019-11-01 00:00:00  | view       | 1003461        | 2053013555631 | electronics.smartphone | xiaomi     | 489.07| 520088904       | 4d3b30da-a5e4-49df-b1a8-ba5943f1dd33      |
+| 2019-11-01 00:00:00  | view       | 5000088        | 2053013566100 | appliances.sewing_machine | janome  | 293.65| 530496790       | 8e5f4f83-366c-4f70-860e-ca7417414283      |
+| 2019-11-01 00:00:01  | view       | 17302664       | 2053013553853 | -                      | creed      | 28.31 | 561587266       | 755422e7-9040-477b-9bd2-6a6e8fd97387      |
+| 2019-11-01 00:00:01  | view       | 3601530        | 2053013563810 | appliances.kitchen.washer | lg      | 712.87| 518085591       | 3bfb58cd-7892-48cc-8020-2f17e6de6e7f      |
+| 2019-11-01 00:00:01  | view       | 1004775        | 2053013555631 | electronics.smartphone | xiaomi     | 183.27| 558856683       | 313628f1-68b8-460d-84f6-cec7a8796ef2      |
+| 2019-11-01 00:00:01  | view       | 1306894        | 2053013558920 | computers.notebook     | hp         | 360.09| 520772685       | 816a59f3-f5ae-4ccd-9b23-82aa8c23d33c      |
+| 2019-11-01 00:00:01  | view       | 1306421        | 2053013558920 | computers.notebook     | hp         | 514.56| 514028527       | df8184cc-3694-4549-8c8c-6b5171877376      |
+| 2019-11-01 00:00:02  | view       | 15900065       | 2053013558190 | -                      | rondell    |  -    |  -              | -                                          |
+
+**Key Columns**:
+- **event_time**: Time when the event happened (in UTC).
+- **event_type**: Type of event, such as 'view', 'cart', 'remove_from_cart', or 'purchase'.
+- **product_id**: ID of the product involved in the event.
+- **category_id**: ID of the product's category.
+- **category_code**: Product's category taxonomy (if available).
+- **brand**: Brand name of the product (if available).
+- **price**: Price of the product at the time of the event.
+- **user_id**: Permanent ID of the user.
+- **user_session**: Temporary session ID of the user. Changes with each new session after a long pause.
+
+**Usage**: This dataset is highly useful for various purposes including:
+- Analyzing user behavior patterns and trends over time.
+- Studying the impact of different marketing strategies on user actions.
+- Building recommendation systems based on user interactions with products.
+- Predicting future purchase behavior using historical data.
+- Investigating the popularity and performance of different product categories and brands.
+
+**License**: Data files © Original Authors
+
+**Expected update frequency**: Never
+
+**Tags**:
+- Real Estate
+- E-Commerce Services
+- Recommender Systems
+
+This dataset provides rich insights into user interactions with products in a multi-category eCommerce store, offering valuable information for data scientists, analysts, and researchers interested in eCommerce and consumer behavior analysis.

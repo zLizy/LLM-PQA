@@ -1,0 +1,49 @@
+**Dataset Name**: Spotify Recommendation
+
+**Overview**: This dataset contains information on 200 songs, including various audio features that describe the characteristics of each track. The data includes songs that the user likes and dislikes, and it can be used to build a recommendation system or to analyze the features of songs to understand what makes a song likable.
+
+**Sample Data**:
+Below is a sample of the data to give an idea of the structure and content of the dataset:
+
+| danceability | energy | key | loudness | mode | speechiness | acousticness | instrumentalness | liveness | valence | tempo | duration_ms | time_signature | liked |
+|--------------|--------|-----|----------|------|-------------|--------------|------------------|----------|--------|-------|-------------|----------------|-------|
+| 0.803        | 0.624  | 7   | -6.764   | 0    | 0.0477      | 0.451        | 0.000734         | 0.1      | 0.628  | 120.0 | 210000      | 4              | 1     |
+| 0.762        | 0.703  | 10  | -7.951   | 0    | 0.306       | 0.206        | 0.0              | 0.0912   | 0.519  | 140.0 | 190000      | 4              | 0     |
+| 0.722        | 0.736  | 3   | -6.994   | 0    | 0.0585      | 0.261        | 0.0149           | 0.1      | 0.519  | 130.0 | 180000      | 4              | 1     |
+| 0.682        | 0.521  | 5   | -5.679   | 1    | 0.0714      | 0.389        | 0.0023           | 0.2      | 0.674  | 110.0 | 200000      | 4              | 0     |
+| 0.701        | 0.755  | 8   | -8.123   | 1    | 0.0932      | 0.173        | 0.0009           | 0.15     | 0.745  | 150.0 | 220000      | 4              | 1     |
+
+**Key Columns**:
+- **danceability**: Describes how suitable a track is for dancing based on tempo, rhythm stability, beat strength, and overall regularity. (0.0 least danceable, 1.0 most danceable)
+- **energy**: A measure of intensity and activity. High energy tracks feel fast, loud, and noisy. (0.0 to 1.0 scale)
+- **key**: The key the track is in. (0 = C, 1 = C♯/D♭, 2 = D, etc.)
+- **loudness**: Overall loudness of a track in decibels (dB). (Typical values range between -60 and 0 dB)
+- **mode**: Indicates the modality (major or minor) of a track. (1 = major, 0 = minor)
+- **speechiness**: Detects the presence of spoken words in a track. (Values above 0.66 indicate tracks made entirely of spoken words)
+- **acousticness**: Confidence measure of whether the track is acoustic. (0.0 to 1.0 scale)
+- **instrumentalness**: Predicts whether a track contains no vocals. (Closer to 1.0 indicates no vocal content)
+- **liveness**: Detects the presence of an audience in the recording. (Values above 0.8 indicate live performance)
+- **valence**: Describes the musical positiveness conveyed by a track. (0.0 to 1.0 scale, higher values indicate more positive mood)
+- **tempo**: Estimated tempo of a track in beats per minute (BPM).
+- **duration_ms**: Duration of the track in milliseconds.
+- **time_signature**: Estimated overall time signature of a track.
+- **liked**: Indicates if the user likes (1) or dislikes (0) the song.
+
+**Usage**: This dataset can be used for various purposes, including:
+- Building a music recommendation system based on audio features.
+- Analyzing the characteristics of songs to understand why they are liked or disliked.
+- Exploring correlations between different audio features and song popularity or likability.
+- Machine learning projects to classify songs into liked or disliked categories.
+
+**License**: CC0: Public Domain
+
+**Expected update frequency**: Never
+
+**Tags**:
+- Music
+- Spotify
+- Audio Analysis
+- Recommendation Systems
+- Data Visualization
+
+This dataset is ideal for music enthusiasts, data scientists, and researchers interested in exploring the features that make songs popular or likable.

@@ -1,0 +1,19 @@
+**Dataset Name**: Caravan Insurance Challenge
+
+**Overview**: This dataset, used in the CoIL 2000 Challenge, contains information on customers of an insurance company. It includes 86 variables with product usage data and socio-demographic data derived from zip area codes. The main objective is to predict potential buyers of caravan insurance policies and understand the reasons behind these predictions. Below is a sample of the data to provide insight into the typical content and structure of the dataset:
+
+| ORIGIN | MOSTYPE | MAANTHUI | MGEMOMV | MGEMLEEF | MOSHOOFD | MGODRK | MGODPR | MGODOV | MGODGE | ... | CARAVAN |
+|--------|---------|----------|---------|----------|----------|--------|--------|--------|--------|-----|---------|
+| train  | 37      | 1        | 2       | 2        | 8        | 0      | 4      | 1      | 4      | ... | 1       |
+| train  | 33      | 1        | 2       | 2        | 8        | 1      | 4      | 1      | 4      | ... | 0       |
+| train  | 37      | 1        | 2       | 2        | 8        | 0      | 4      | 2      | 4      | ... | 1       |
+| train  | 9       | 1        | 3       | 3        | 3        | 2      | 3      | 2      | 4      | ... | 0       |
+| train  | 40      | 1        | 4       | 2        | 10       | 1      | 4      | 1      | 4      | ... | 1       |
+
+**Usage**: This dataset is extensively used for predictive modeling in the insurance industry. It helps in identifying potential customers for caravan insurance policies based on socio-demographic and product usage data. The dataset supports the development of machine learning models to predict insurance buyers, which can optimize marketing strategies and customer targeting for insurance companies.
+
+The dataset is valuable for research in consumer behavior analysis, insurance risk assessment, and socio-economic studies. It is also useful for educational purposes, providing a comprehensive resource for learning and applying predictive analytics in real-world business scenarios.
+
+**License**: This dataset is owned and supplied by the Dutch datamining company Sentient Machine Research and is based on real-world business data. It is available for non-commercial research and educational purposes only. For any other use, please contact Peter van der Putten, info@smr.nl.
+
+**Expected update frequency**: Not specified

@@ -1,0 +1,24 @@
+Model Name: insurancecharge_linear_regression
+
+Dataset Name: insurance
+
+Model Overview:
+The insurancecharge_linear_regression model is trained on the insurance dataset to predict insurance charges based on a human's medical information. It utilizes input features such as age, BMI, number of children, gender, smoking habit, and region, to estimate the charges a person might incur for insurance coverage.
+
+Intended Use:
+This model is designed for predicting insurance charges based on individual medical information. It can be utilized by insurance companies, healthcare providers, or individuals seeking estimates for insurance premiums. It enables informed decision-making by providing accurate predictions based on the input variables.
+
+Technical Details:
+- Algorithm Type: Linear Regression
+- Input Features: ['age', 'bmi', 'children', 'sex_female', 'sex_male', 'smoker_no', 'smoker_yes', 'region_northeast', 'region_northwest', 'region_southeast', 'region_southwest']
+- Output: Predicted value of insurance charges
+
+Model Performance:
+ - Mean Squared Error (MSE): 33497825.55368333
+ - R² Score: 0.7615425718903163
+
+Limitations:
+- Linear regression assumption: The model assumes a linear relationship between input variables and insurance charges. If this assumption is violated, the model's performance may be affected.
+- Multicollinearity and outliers: High multicollinearity among input features or presence of outliers in the data can impact the model's accuracy and reliability in predicting insurance charges.
+
+Overall, the insurancecharges_regression model serves as a valuable tool for estimating insurance charges based on an individual's medical information, aiding in decision-making processes related to insurance coverage.

@@ -1,0 +1,67 @@
+**Dataset Name**: Most Streamed Spotify Songs 2023
+
+**Overview**: This dataset contains a comprehensive list of the most famous songs of 2023 as listed on Spotify. It provides insights into each song's attributes, popularity, and presence on various music platforms. The dataset includes information such as track name, artist(s) name, release date, Spotify playlists and charts, streaming statistics, and various audio features.
+
+**Sample Data**:
+Below is a sample of the data to give an idea of the structure and content of the dataset:
+
+| track_name               | artist(s)_name     | artist_count | released_year | released_month | released_day | in_spotify_playlists | in_spotify_charts | streams     | in_apple_playlists | bpm | key | mode | danceability_% | valence_% | energy_% | acousticness_% | instrumentalness_% | liveness_% | speechiness_% |
+|--------------------------|--------------------|--------------|---------------|----------------|--------------|----------------------|-------------------|-------------|--------------------|-----|-----|------|----------------|-----------|----------|----------------|---------------------|------------|---------------|
+| Seven (feat. Latto)      | Latto, Jung Kook   | 2            | 2023          | 7              | 14           | 553                  | 147               | 141381703   | 43                 | 90  | 7   | 1    | 0.803          | 0.628     | 0.762    | 0.703          | 0.000               | 0.1        | 0.0477        |
+| LALA                     | Myke Towers        | 1            | 2023          | 3              | 23           | 1474                 | 48                | 133716286   | 48                 | 88  | 3   | 1    | 0.736          | 0.519     | 0.624    | 0.261          | 0.0149              | 0.102      | 0.0419        |
+| vampire                  | Olivia Rodrigo     | 1            | 2023          | 6              | 30           | 1397                 | 113               | 140003974   | 94                 | 86  | 0   | 1    | 0.703          | 0.519     | 0.762    | 0.261          | 0.0149              | 0.102      | 0.0419        |
+| Cruel Summer             | Taylor Swift       | 1            | 2019          | 8              | 23           | 7858                 | 100               | 800840817   | 116                | 76  | 11  | 0    | 0.762          | 0.703     | 0.762    | 0.261          | 0.0149              | 0.102      | 0.0419        |
+| WHERE SHE GOES           | Bad Bunny          | 1            | 2023          | 5              | 18           | 1474                 | 48                | 133716286   | 48                 | 88  | 3   | 1    | 0.736          | 0.519     | 0.624    | 0.261          | 0.0149              | 0.102      | 0.0419        |
+
+**Key Columns**:
+- **track_name**: Name of the song.
+- **artist(s)_name**: Name of the artist(s) of the song.
+- **artist_count**: Number of artists contributing to the song.
+- **released_year**: Year when the song was released.
+- **released_month**: Month when the song was released.
+- **released_day**: Day of the month when the song was released.
+- **in_spotify_playlists**: Number of Spotify playlists the song is included in.
+- **in_spotify_charts**: Presence and rank of the song on Spotify charts.
+- **streams**: Total number of streams on Spotify.
+- **in_apple_playlists**: Number of Apple Music playlists the song is included in.
+- **bpm**: Beats per minute, a measure of song tempo.
+- **key**: Key of the song.
+- **mode**: Mode of the song (major or minor).
+- **danceability_%**: Percentage indicating how suitable the song is for dancing.
+- **valence_%**: Positivity of the song's musical content.
+- **energy_%**: Perceived energy level of the song.
+- **acousticness_%**: Amount of acoustic sound in the song.
+- **instrumentalness_%**: Amount of instrumental content in the song.
+- **liveness_%**: Presence of live performance elements.
+- **speechiness_%**: Amount of spoken words in the song.
+
+**Usage**:
+This dataset can be used for various purposes, including:
+- **Music Analysis**: Explore patterns in audio features to understand trends and preferences in popular songs.
+- **Platform Comparison**: Compare the song's popularity across different music platforms.
+- **Artist Impact**: Analyze how artist involvement and attributes relate to a song's success.
+- **Temporal Trends**: Identify any shifts in music attributes and preferences over time.
+- **Cross-Platform Presence**: Investigate how songs perform across different streaming services.
+
+**License**: Other (specified in description)
+
+**Expected update frequency**: Annually
+
+**Tags**:
+- Computer Science
+- Education
+- Music
+- Data Visualization
+- Classification
+- Exploratory Data Analysis
+
+**Acknowledgements**:
+If you find this dataset useful, please support the authors by citing their work and providing feedback.
+
+**Sample Analysis Ideas**:
+1. **Music Recommendation Engine**: Use the dataset to create a recommendation engine that suggests songs to users based on their listening history and preferences.
+2. **Trend Analysis**: Identify trends in music preferences over time, such as the rise and fall of certain genres or artists.
+3. **Feature Correlation**: Explore the relationships between different audio features (e.g., danceability, energy, loudness) and their impact on song popularity.
+4. **Popularity Metrics**: Determine the most popular tracks and artists based on streaming statistics and chart presence.
+
+This dataset is ideal for data scientists, music enthusiasts, and researchers interested in music recommendation systems and listening behavior analysis.

@@ -1,0 +1,21 @@
+### Model Name: Sales Prediction Model
+
+### Dataset Name: jibrilyahayajibril/sales-prediction-model
+
+### Model Overview:
+The Sales Prediction Model is a linear regression model designed to quantify the impact of TV advertising expenditure on sales. It analyzes the relationship between TV advertising expenses and their influence on sales or revenue for a company.
+
+### Intended Use:
+This model is intended for use in marketing and sales departments to assess the effectiveness of TV advertising campaigns. It helps in making informed decisions by predicting sales based on historical advertising expenses.
+
+### Technical Details:
+- Algorithm Type: Linear Regression
+- Input Features: TV advertising expenditure
+- Output: Predicted sales
+
+### Model Performance:
+- Mean Squared Error (MSE): Not specified
+- R² Score: Not specified
+
+### Limitations:
+- The model assumes a linear relationship between TV advertising expenditure and sales, which may not hold in complex scenarios involving interactions or nonlinear effects. It may perform poorly if this assumption is violated or if the data contains high multicollinearity or outliers.

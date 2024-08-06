@@ -1,0 +1,53 @@
+**Dataset Name**: LEGO Database
+
+**Overview**: This dataset contains comprehensive information on LEGO parts, sets, colors, and inventories of every official LEGO set as of July 2017. It was originally compiled to assist LEGO enthusiasts in identifying what other sets they could build with the pieces they already owned. The data is derived from the Rebrickable database, a website dedicated to LEGO set building.
+
+**Sample Data**:
+Below is a sample of the data to give an idea of the structure and content of one of the files (colors.csv):
+
+| id  | name     | rgb    | is_trans |
+|-----|----------|--------|----------|
+| -1  | Unknown  | 0033B2 | f        |
+| 0   | Black    | 05131D | f        |
+| 1   | Blue     | 0055BF | f        |
+| 2   | Green    | 237841 | f        |
+| 3   | Dark Turquoise | 008F9B | f        |
+| 4   | Red      | C91A09 | f        |
+| 5   | Dark Pink | C870A0 | f        |
+| 6   | Brown    | 583927 | f        |
+| 7   | Light Gray | 9BA19D | f        |
+| 8   | Dark Gray | 6D6E5C | f        |
+
+**Key Columns**:
+- **id**: Unique ID for the color.
+- **name**: The human-readable name of the color.
+- **rgb**: The approximate RGB color value.
+- **is_trans**: Boolean indicating whether the color is transparent (t) or not (f).
+
+**Files Included**:
+1. **colors.csv**: Information on LEGO colors, including unique ID, name, RGB value, and transparency.
+2. **parts.csv**: Details on individual LEGO parts, including part number, name, and category.
+3. **sets.csv**: Information on LEGO sets, including set number, name, year of release, and theme.
+4. **inventories.csv**: Information on the inventory of LEGO sets, including set number and part number.
+5. **inventory_parts.csv**: Detailed inventory of parts in each set, including part number, quantity, and color.
+6. **themes.csv**: Information on LEGO themes, including theme name and parent theme.
+
+**Usage**: This dataset can be used for various purposes, including:
+- Analyzing the evolution of LEGO set sizes and complexity over time.
+- Investigating the association of colors with different LEGO themes.
+- Identifying the most common and rarest LEGO pieces.
+- Exploring the changes in LEGO colors included in sets over time.
+
+**License**: CC0: Public Domain
+
+**Expected update frequency**: Not specified
+
+**Tags**:
+- Games
+- LEGO
+- Building Sets
+- Toys
+- Data Analysis
+- Historical Trends
+
+This dataset is ideal for LEGO enthusiasts, data analysts, and researchers interested in exploring the historical trends and patterns in LEGO sets and parts.

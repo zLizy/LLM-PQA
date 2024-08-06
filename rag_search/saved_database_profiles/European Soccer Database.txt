@@ -1,0 +1,25 @@
+### Dataset Name
+European Soccer Database
+
+### Overview
+This dataset provides comprehensive information on European professional football, covering over 25,000 matches, 10,000 players, and various attributes from the 2008 to 2016 seasons. It includes details on matches, players, teams, betting odds, and match events sourced from multiple platforms.
+
+### Sample Data
+
+#### Matches
+| Match_ID | Date       | Home_Team        | Away_Team      | Home_Goals | Away_Goals | Home_Odds | Draw_Odds | Away_Odds |
+|----------|------------|------------------|----------------|------------|------------|-----------|-----------|-----------|
+| 1        | 2008-08-17 | Team A           | Team B         | 1          | 0          | 2.5       | 3.2       | 2.8       |
+| 2        | 2008-08-17 | Team C           | Team D         | 2          | 1          | 1.8       | 3.5       | 4.1       |
+
+#### Players
+| Player_ID | Name        | Birthday   | Height | Weight |
+|-----------|-------------|------------|--------|--------|
+| 1         | Player A    | 1985-08-17 | 180    | 75     |
+| 2         | Player B    | 1990-04-10 | 175    | 70     |
+
+#### Teams
+| Team_ID | Team_Name  |
+|---------|------------|
+| 1       | Team A     |
+| 2       | Team B     |

@@ -1,0 +1,16 @@
+### Dataset Name
+Novel Corona Virus 2019 Dataset
+
+### Overview
+This dataset provides daily information on COVID-19 cases globally, including the number of confirmed cases, deaths, and recoveries. The data starts from January 22, 2020, and is regularly updated.
+
+### Sample Data
+
+| Sno | ObservationDate | Province/State | Country/Region | Last Update         | Confirmed | Deaths | Recovered |
+|-----|-----------------|----------------|----------------|---------------------|-----------|--------|-----------|
+| 1   | 01/22/2020      | Anhui          | Mainland China | 1/22/2020 17:00     | 1         | 0      | 0         |
+| 2   | 01/22/2020      | Beijing        | Mainland China | 1/22/2020 17:00     | 14        | 0      | 0         |
+| 3   | 01/22/2020      | Chongqing      | Mainland China | 1/22/2020 17:00     | 6         | 0      | 0         |
+| 4   | 01/22/2020      | Fujian         | Mainland China | 1/22/2020 17:00     | 1         | 0      | 0         |
+| 5   | 01/22/2020      | Gansu          | Mainland China | 1/22/2020 17:00     | 0         | 0      | 0         |
+| 6   | 01/22/2020      | Guangdong      | Mainland China | 1/22/2020 17:00     | 26        | 0      | 0         |

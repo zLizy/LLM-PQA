@@ -1,0 +1,56 @@
+**Dataset Name**: 30000 Spotify Songs
+
+**Overview**: This dataset contains detailed information on almost 30,000 songs collected from the Spotify API. The dataset includes various attributes related to each song, such as popularity, danceability, energy, and more. It is intended for use in data analysis, visualization, and classification tasks related to music.
+
+**Sample Data**:
+Below is a sample of the data to give an idea of the structure and content of the dataset:
+
+| track_id | track_name       | track_artist       | track_popularity | track_album_id | track_album_name       | track_album_release_date | playlist_name | playlist_id | playlist_genre | playlist_subgenre | danceability | energy | key | loudness | mode | speechiness | acousticness | instrumentalness | liveness | valence | tempo | duration_ms |
+|----------|------------------|--------------------|------------------|----------------|------------------------|--------------------------|---------------|-------------|----------------|-------------------|--------------|--------|-----|----------|------|-------------|--------------|------------------|----------|---------|-------|-------------|
+| 1        | Song Name 1      | Artist 1           | 50               | 1              | Album Name 1           | 2020-01-01               | Playlist 1    | 1           | Genre 1        | Subgenre 1        | 0.5          | 0.7    | 1   | -5.0     | 1    | 0.05        | 0.2          | 0.0              | 0.15     | 0.6     | 120.0 | 210000      |
+| 2        | Song Name 2      | Artist 2           | 75               | 2              | Album Name 2           | 2019-12-01               | Playlist 2    | 2           | Genre 2        | Subgenre 2        | 0.8          | 0.9    | 2   | -3.0     | 0    | 0.1         | 0.1          | 0.5              | 0.25     | 0.8     | 130.0 | 180000      |
+| 3        | Song Name 3      | Artist 3           | 60               | 3              | Album Name 3           | 2018-11-01               | Playlist 3    | 3           | Genre 3        | Subgenre 3        | 0.6          | 0.8    | 3   | -4.0     | 1    | 0.07        | 0.15         | 0.3              | 0.2      | 0.7     | 110.0 | 200000      |
+
+**Key Columns**:
+- **track_id**: Unique ID for the song.
+- **track_name**: Name of the song.
+- **track_artist**: Artist of the song.
+- **track_popularity**: Popularity of the song (0-100), where higher is better.
+- **track_album_id**: Unique ID for the album.
+- **track_album_name**: Name of the album.
+- **track_album_release_date**: Release date of the album.
+- **playlist_name**: Name of the playlist.
+- **playlist_id**: Unique ID for the playlist.
+- **playlist_genre**: Genre of the playlist.
+- **playlist_subgenre**: Subgenre of the playlist.
+- **danceability**: Danceability score (0.0 to 1.0).
+- **energy**: Energy score (0.0 to 1.0).
+- **key**: Estimated overall key of the track.
+- **loudness**: Loudness of the track in decibels (dB).
+- **mode**: Modality of the track (1 for major, 0 for minor).
+- **speechiness**: Speechiness score (0.0 to 1.0).
+- **acousticness**: Acousticness score (0.0 to 1.0).
+- **instrumentalness**: Instrumentalness score (0.0 to 1.0).
+- **liveness**: Liveness score (0.0 to 1.0).
+- **valence**: Valence score (0.0 to 1.0).
+- **tempo**: Tempo of the track in beats per minute (BPM).
+- **duration_ms**: Duration of the song in milliseconds.
+
+**Usage**: This dataset can be used for various purposes, including:
+- Analyzing trends in music popularity and features over time.
+- Building machine learning models to predict song popularity or categorize songs by genre.
+- Visualizing patterns in musical features such as danceability, energy, and valence.
+
+**License**: Database: Open Database, Contents: Database Contents
+
+**Expected update frequency**: Never
+
+**Tags**:
+- Music
+- Data Visualization
+- Classification
+- NLP (Natural Language Processing)
+- Spotify
+- Audio Analysis
+
+This dataset is ideal for music enthusiasts, data scientists, and researchers interested in exploring musical features and trends in Spotify songs.

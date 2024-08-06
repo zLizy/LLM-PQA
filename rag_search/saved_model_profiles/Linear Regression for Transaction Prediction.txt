@@ -1,0 +1,16 @@
+Model Overview
+Linear regression, a fundamental supervised machine learning algorithm, predicts a continuous target variable from one or more independent variables, assuming a linear relationship.
+
+Intended Use
+Applied in financial analytics to predict future transaction amounts based on historical data.
+
+Technical Details
+Algorithm Type: Supervised Learning
+Input Features: Independent variables
+Output: Continuous target variable
+Training: Best-fitting line or hyperplane that minimizes prediction errors.
+Model Performance
+Efficient in predicting transaction amounts, aiding in financial planning and analysis.
+
+Limitations
+Assumes linear relationships, which may not apply in all financial datasets.
